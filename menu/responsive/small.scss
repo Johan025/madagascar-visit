@@ -1,5 +1,4 @@
 
-@import "./medium.scss";
 *{
    color: #e7e7e7;
 }
@@ -16,7 +15,7 @@
             display: none;
             z-index: 4;
             position: absolute;
-            left: 22vw;
+            left: 15vw;
             text-align: center;
             align-items: center;
             justify-content: center;
@@ -24,10 +23,10 @@
             padding-bottom: 12.5cm;
 
              li{
-                margin: 14px;
+                margin: 17px;
                  
                 a{
-                  font-size: 23px;
+                  font-size: 19px;
                   padding: 6px;
                   color: #1d1a1a;
                   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -140,7 +139,7 @@
     .hideshow{
         // transform: translateY(-0.2rem);
         transition: 0.4s;
-        height: 37rem;
+        height: 35rem;
     }
 
     .hideshow2{
@@ -398,7 +397,7 @@
   
                          .p_item_1{
                              position: absolute;
-                             top: 23.5rem;
+                             top: 25.9rem;
                          }
   
                          .p_item_2{
@@ -775,7 +774,7 @@
         position: absolute;
         top: 11.1rem;
         left :-31vw;
-        width: 93vw;
+        width: 91vw;
         color: #ffffff;
       }
       
@@ -828,7 +827,7 @@
         width: 45px;
         height: 45px;
         position: fixed;
-        top: 48rem;
+        top: 60rem;
         right: 7vw;
         z-index: 20;
 
