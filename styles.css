@@ -1454,7 +1454,7 @@ body {
     display: none;
     z-index: 4;
     position: absolute;
-    left: 17vw;
+    left: 15vw;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -1462,10 +1462,10 @@ body {
     padding-bottom: 12.5cm;
   }
   header ul li {
-    margin: 14px;
+    margin: 17px;
   }
   header ul li a {
-    font-size: 23px;
+    font-size: 19px;
     padding: 6px;
     color: #1d1a1a;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -1551,7 +1551,7 @@ body {
   }
   .hideshow {
     transition: 0.4s;
-    height: 37rem;
+    height: 35rem;
   }
   .hideshow2 {
     display: block;
@@ -2145,7 +2145,7 @@ body {
     position: absolute;
     top: 11.1rem;
     left: -31vw;
-    width: 93vw;
+    width: 91vw;
     color: #ffffff;
   }
   div.icones img:nth-last-child(1) {
