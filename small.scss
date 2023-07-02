@@ -1,0 +1,570 @@
+@import "./../../../../settings.scss";
+@import url("_include-media.scss");
+.up img{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 50rem;
+    right: 2rem;
+
+}
+@media screen and (max-width: 1023px) and (min-width: 280px) {
+    
+    header{
+        position: fixed;
+        width: 100%;
+        height: 2cm;
+        background-color: #ffffff;
+
+        ul{
+            display: block;
+            z-index: 4;
+            position: absolute;
+            left: 6.1rem;
+            align-items: center;
+            justify-content: center;
+            top: -4rem;
+            padding-bottom: 12.5cm;
+
+             li{
+                margin: 23px;
+                 
+                a{
+                  font-size: 23px;
+                  padding: 6px;
+                }
+                }
+            }
+        }
+        
+    .logo{
+        position: fixed;
+        top: 1.4rem;
+        left: 2.4rem;
+        width: 3cm;
+        height: 1.5cm;
+        z-index: 6;
+    }
+        
+         
+    .header{
+        position :absolute;
+        top: 7.78rem;
+        transform: translateY(-150rem);
+        width: 100%;
+        height: 43rem;
+        background-color: #1ed661;
+        z-index: 4;
+        transition : 0.6s;
+        }
+          
+    .versionAng{
+        margin: 7rem;
+        position: absolute;
+        top: 34rem;
+        left: 1.5rem;
+    }
+        
+        #ang{
+        cursor: pointer;
+        position: absolute;
+        top:0;
+    }
+          
+    .logoBurger i{
+        font-size: 30px;
+        position: relative;
+        float: right; 
+         right: -33rem;
+        top: 1.5rem;
+        border-radius: 50%;
+        padding: 7px;
+        border: 1.5px solid black;
+        z-index: -4;
+        color:black;
+
+          &:hover{
+            border: 0px solid #1ed661;
+            background-color: #1ed640;
+          }
+          
+    }
+        
+         
+    .hideshow{
+        transform: translateY(-0.2rem);
+        transition: 0.5s;
+    }
+
+    .couvertureEst img{
+        width: 100%;
+      
+        left:0;
+        display: none;
+    }
+
+    .couvertureEst_responsive img{
+        width: 100%;
+        left:0;
+        height: 60rem;
+        display: inline-block;
+    }
+
+    .title_east{
+        font-size: 39px;
+        left: 4rem;
+        top: 60rem;
+        text-align: center;
+    }
+
+    .east .desc{
+        font-size: 18px;
+        left: 4.2rem;
+        top: 82rem;
+        width: 82vw;
+    }
+
+    .east_day{
+        position: absolute;
+        top: 118rem;
+        left: -30rem;
+
+        .titre_east{
+            @include h1(35px, 600, 40rem);
+            color: $color_1;
+            top: 19.5rem;
+            width: 75vw;
+            position: absolute;
+          }
+      
+      
+      .day1{
+          @include div(85vw, 26rem, 33rem, 32rem, $color_3);
+           text-align: center;
+          h1{
+              @include h1(25px, 550, 4rem);
+          }
+           p{
+              @include p( 18.5px, 1rem ,  7rem);
+           }
+      }
+
+      .day2{
+        @include div(85vw, 34rem, 33rem, 72rem, $color_3);
+         text-align: center;
+        h1{
+            @include h1(23px, 550, 1rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  6rem);
+         }
+    }
+
+    .day3{
+        @include div(85vw, 33rem, 33rem, 118rem, $color_3);
+        h1{
+            @include h1(25px, 550, 4rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day4{
+        @include div(85vw, 37rem, 33rem, 163rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day5{
+        @include div(85vw, 18rem, 33rem, 213rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day6-7-8{
+        @include div(85vw, 14rem, 33rem, 207rem, $color_3);
+        h1{
+            @include h1(21px, 550, 5.4rem);
+        }
+
+    }
+
+    .day9{
+        @include div(85vw, 16rem, 33rem, 270rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  8rem);
+         }
+    }
+
+    .day10{
+        @include div(85vw, 16rem, 33rem, 298rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day6-7-8{
+        @include div(85vw, 14rem, 33rem, 243rem, $color_3);
+        h1{
+            @include h1(21px, 550, 5.4rem);
+        }
+
+    }
+
+
+    }      
+
+    .east_day_pangalane{
+        position: absolute;
+        top: 460rem;
+        left: 0rem;
+      
+        .titre_east{
+          @include h1(23px, 600, 2.5rem);
+          font-weight: 700;
+          color: $color_1;
+          top: -18rem;
+          width: 87vw;
+          position: absolute;
+
+          span{
+            color: $color_1;
+            position: absolute;
+            left: 2rem;
+            top: 4rem;
+           }
+        }
+             
+      .day1{
+        @include div(85vw, 26rem, 3rem, -2rem, $color_3);
+         text-align: center;
+        h1{
+            @include h1(25px, 550, 4rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day2{
+      @include div(85vw, 34rem, 3rem, 35rem, $color_3);
+       text-align: center;
+      h1{
+          @include h1(23px, 550, 1rem);
+      }
+       p{
+          @include p( 18.5px, 1rem ,  6rem);
+       }
+  }
+
+  .day3{
+      @include div(85vw, 30rem, 3rem, 81rem, $color_3);
+      h1{
+          @include h1(25px, 550, 4rem);
+      }
+       p{
+          @include p( 18.5px, 1rem ,  7rem);
+       }
+  }
+
+  .day4{
+      @include div(85vw, 34rem, 3rem, 120rem, $color_3);
+      h1{
+          @include h1(20px, 550, 1.4rem);
+      }
+       p{
+          @include p( 18.5px, 1rem ,  7rem);
+       }
+  }
+
+  .day5{
+    @include div(85vw, 39rem, 3rem, 165rem, $color_3);
+    h1{
+        @include h1(20px, 550, 1.4rem);
+    }
+     p{
+        @include p( 18.5px, 1rem ,  7rem);
+     }
+}
+
+.day6{
+    @include div(85vw, 20rem, 3rem, 215rem, $color_3);
+    h1{
+        @include h1(18px, 550, 1rem);
+    }
+     p{
+        @include p( 18.5px, 1rem ,  7rem);
+     }
+}
+
+.day7{
+    @include div(85vw, 18rem, 3rem, 244rem, $color_3);
+    h1{
+        @include h1(20px, 550, 1rem);
+    }
+     p{
+        @include p( 18.5px, 1rem ,  7rem);
+     }
+}
+
+
+
+ }
+
+    .border_vertical4{
+            @include border(275rem, 5.4px,rgb(215, 141, 3), 20rem, 155rem);
+        }
+        
+    .border_vertical5{
+            @include border(240rem, 5.4px, rgb(215, 141, 3), 20rem, 474rem);
+        }
+        
+        footer{
+            position: absolute;
+            top: 765.5rem;
+            background-color: rgba(0, 0, 0, 0.705);
+            width :100%;
+            height: 55vh;
+            padding-bottom: -24rem;
+          }
+     
+     
+     
+          .footer_contact h1{
+            position: absolute;
+            left: -9rem;
+          }
+        
+          .footer_contact{
+            width: 45%;
+            position: absolute;
+            top: 5rem;
+            left: 45%;
+         }
+         
+         .mail{
+           font-size: 20px;
+           position: absolute;
+           top: 7rem;
+           left :-13.5rem;
+           color: #ffffff;
+         }
+         
+         .phone{
+           font-size: 19px;
+           position: absolute;
+           top: 10rem;
+           left :-13.5rem;
+           color: #ffffff;
+         }
+         
+         .footer_contact p:nth-last-child(3){
+           font-size: 18px;
+           position: absolute;
+           top: 13.1rem;
+           left :-13.0rem;
+           color: #ffffff;
+         }
+          
+         .icones{
+            position: relative;
+            top: 2rem;
+            left: -7rem;
+           }
+          
+           .border_{
+            position: absolute;
+            top: 19rem;
+            left: -2.8rem;
+           }
+          
+         
+          .footCopright{
+           position: absolute;
+           top: 35.8rem;
+           width: 100%;
+           height: 3.6cm;
+           background-color: rgba(40, 37, 37, 0.921);
+           font-size: 18px;
+           padding-top: 0rem;
+           color: rgb(212, 205, 205);
+          }
+   
+
+}
+
+
+@media screen and (max-width: 380px) and (min-width:320px) {
+    .border_vertical4{
+        @include border(286rem, 5.4px,rgb(215, 141, 3), 18rem, 149rem);
+    }
+    
+.border_vertical5{
+        @include border(250rem, 5.4px, rgb(215, 141, 3), 18rem, 494rem);
+    }
+
+    .east .desc{
+        position: absolute;
+        top: 95rem;
+    }
+    
+    .east_day{
+        position: absolute;
+        top: 119rem;
+        left: -30rem;
+
+        .titre_east{
+            @include h1(35px, 600, 38rem);
+            color: $color_1;
+            top: 16rem;
+            width: 75vw;
+            position: absolute;
+          }
+      
+      
+      .day1{
+          @include div(85vw, 26rem, 32.5rem, 27rem, $color_3);
+           text-align: center;
+      }
+
+      .day2{
+        @include div(85vw, 36rem, 32.5rem, 66rem, $color_3);
+         text-align: center;
+    }
+
+
+
+    .day5{
+        @include div(85vw, 19rem, 33rem, 210rem, $color_3);
+    }
+
+    .day9{
+        @include div(85vw, 20rem, 33rem, 270rem, $color_3);
+    }
+
+    .day10{
+        @include div(85vw, 16rem, 33rem, 305rem, $color_3);
+    }
+
+}
+
+.east_day_pangalane{
+    position: absolute;
+    top: 470rem;
+    left: 0rem;
+  
+    .titre_east{
+      @include h1(21px, 600, 1.5rem);
+      color: $color_1;
+      font-weight: 600;
+      top: -18rem;
+      width: 90vw;
+      position: absolute;
+
+      span{
+        color: $color_1;
+        position: absolute;
+        left: 2rem;
+        top: 4rem;
+       }
+    }
+         
+  .day1{
+    @include div(85vw, 26rem, 3rem, -2rem, $color_3);
+     text-align: center;
+    
+}
+
+.day2{
+  @include div(85vw, 37rem, 3rem, 35rem, $color_3);
+   text-align: center;
+}
+
+.day3{
+  @include div(85vw, 33rem, 3rem, 81rem, $color_3);
+}
+
+.day4{
+  @include div(85vw, 38rem, 3rem, 125rem, $color_3);
+  h1{
+      @include h1(18px, 550, 0.4rem);
+  }
+   p{
+      @include p( 18.5px, 1rem ,  7rem);
+   }
+}
+
+.day5{
+@include div(85vw, 42rem, 3rem, 175rem, $color_3);
+h1{
+    @include h1(20px, 550, 1.4rem);
+}
+
+ p{
+    @include p( 18.5px, 1rem ,  7rem);
+ }
+}
+
+.day6{
+@include div(85vw, 23rem, 3rem, 228rem, $color_3);
+h1{
+    @include h1(18px, 550, 0.5rem);
+}
+ p{
+    @include p( 18.5px, 1rem ,  9rem);
+ }
+}
+
+.day7{
+@include div(85vw, 18rem, 3rem, 262rem, $color_3);
+h1{
+    @include h1(20px, 550, 1rem);
+}
+ p{
+    @include p( 18.5px, 1rem ,  7rem);
+ }
+}
+
+
+
+}
+ 
+}
+
+
+
+
+@media screen and (max-width: 764px) and (min-width:360px) {
+.logoBurger{
+right:36rem;
+top: 0rem;
+z-index: 4;
+}
+
+
+
+.title_east{
+ top: 67.4rem;
+}
+
+.east .desc{
+top: 77rem;
+}
+
+}
+

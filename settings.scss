@@ -1,0 +1,202 @@
+$color-1: rgb(8, 158, 63);
+$font-size:40px;
+$color_2: rgb(35, 34, 34);
+$align: center;
+$color_3: rgb(215, 141, 3);
+$color-4: rgb(209, 118, 6);
+
+*{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+    background-color: white;
+    width: 10px;
+    scrollbar-width: thin;
+  }
+    
+  ::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+  }
+
+  @font-face {
+    font-family: 'coneria_script_demoregular';
+    src: url('./fonts/demo_coneriascript-webfont.woff2') format('woff2'),
+         url('./fonts/demo_coneriascript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'unnabold';
+  src: url('fonts/unna-bold-webfont.woff2') format('woff2'),
+       url('fonts/unna-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+    font-family: 'yeseva_oneregular';
+    src: url('fonts/yesevaone-regular-webfont.woff2') format('woff2'),
+         url('fonts/yesevaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'battoraregular';
+    src: url('fonts/battora-webfont.woff2') format('woff2'),
+         url('./fonts/battora-webfont\ .woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alfa_slab_oneregular';
+    src: url('./fonts/alfaslabone-regular-webfont.woff2') format('woff2'),
+         url('fonts/alfaslabone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'paytone_oneregular';
+    src: url('fonts/paytoneone-regular-webfont.woff2') format('woff2'),
+         url('fonts/paytoneone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  
+  
+   body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  @mixin border($height, $width, $color, $left, $top){
+      width: $width;
+      height: $height;
+      background-color: $color;
+      position: absolute;
+      top: $top;
+      left: $left;
+  }
+  
+  @mixin input($width,$padding, $border-radius,$t, $style, $top, $left){
+       padding: $padding;
+       border-radius:$border-radius ;
+       border: $t $style;
+       width: $width;
+       position: absolute;
+       top: $top;
+       left: $left;
+  }
+
+  @mixin p_left($left, $top, $size){
+  position: absolute;
+  left: $left;
+  top: $top;
+  font-size: $size;
+  text-align: center;
+}
+
+
+  @mixin h($size, $top, $left, $weight, $width){
+    font-size: $size;
+    position: absolute;
+    top: $top;
+    left: $left;
+    font-weight: $weight;
+    width: $width;
+ }
+
+ @mixin div-color($height, $width, $left, $top){
+  width: $width;
+  height: $height;
+  position: absolute;
+  left: $left;
+  top: $top;
+}
+
+  @mixin button($color, $padding, $left, $top, $size){
+    position: absolute;
+    left: $left;
+    top: $top;
+    padding: $padding;
+    background-color: $color;
+    font-size: $size;
+}
+  @mixin div($width, $height, $left, $top, $color){
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: $top;
+    left: $left;
+    border-radius:4px;
+    background-color: $color;
+  }
+
+  @mixin div-tour($width, $height, $top, $color, $c, $size){
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: $top;
+    background-color: $color;
+    color: $c;
+    font-size: $size;
+  }
+
+
+  @mixin h1($size, $weight, $left){
+    font-size: $size;
+    position: absolute;
+    left: $left;
+ 
+    font-weight: $weight;
+  }
+
+  @mixin p($size, $left, $top){
+    font-size: $size;
+    position: absolute;
+    left: $left;
+    top: $top;
+    color: rgb(45, 45, 45);
+  }
+
+  @mixin div_img($width, $height, $left, $top){
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: $top;
+    left: $left;
+    border-radius:4px;
+  }
+
+  @mixin div_image($width, $height, $left){
+    width: $width;
+    height: $height;
+    position: absolute;
+    left: $left;
+    border-radius:4px;
+  }
+
+ 
+
+

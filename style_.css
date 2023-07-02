@@ -1,0 +1,2275 @@
+
+.i2{
+  color: #312e2e;
+}
+
+html::-webkit-scrollbar {
+  background-color: rgba(242, 255, 255, 0.966);
+  width: 10px;
+  scrollbar-width: thin;
+}
+  
+::-webkit-scrollbar-thumb {
+background-color: rgba(53, 44, 44, 0.555);
+height: 6px;
+width: 6px;
+border-radius: 10px;
+}
+
+
+ body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+    /* version ordinateur */
+@media screen and (min-width:1200px) , (max-width:3000px) {
+  
+
+   /* barre de navigation */
+   header{
+    background-color:white;
+    height:2.2cm;
+    width:100%;
+    position: fixed;
+    z-index: 4;
+   }
+
+   .header{
+    background-color:white;
+    height:2.2cm;
+    width:100%;
+    position: fixed;
+    z-index: 4;
+   }
+
+    .logo{
+    width: 169px;
+    height: 68px;
+    left: 2rem;
+    position: fixed;
+    z-index: 4;
+    top: 1rem;
+    }
+
+  .logoBurger{
+    position: absolute;
+    left: -8rem;
+
+} 
+
+  header ul {
+  position: relative;
+  top: -2.5rem;
+  right: 4rem;
+  display: flex;
+  list-style-type: none;
+  height:1cm;
+  padding-top:5rem;
+  padding-bottom: 14rem;
+  overflow: hidden;
+      float: right;
+    }
+    
+    li a{
+     margin : 6px;
+     font-size: 19px;
+     padding:17px;
+     color:rgb(64, 56, 56);
+    }
+
+     
+    li a.active {
+    color: white;
+    background-color: #04AA6D;
+    border: opx solid;
+    border-width: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    
+    } 
+
+    li a:hover:not(.active) {
+    background-color: #d6d61e;
+    border-radius: 8px;
+    text-decoration: none;
+    color:rgb(64, 56, 56);
+    }
+
+    .versionAng{
+    margin-left: 11rem;
+    font-size: 19px;
+    color: rgb(64, 56, 56);
+    }
+
+  .imgAng{
+  position: relative;
+  left :0rem;
+  top:0rem;
+  width:30px;
+  border-radius: 40%;
+  height: 30px;
+    }
+
+    .fenetreFrancais{
+  position: relative;
+  float: right;
+  left: 94rem;
+  top:8.3rem;
+  width:5cm;
+  height:2cm;
+  background-color: #04AA6D;
+  z-index: 4;
+  transform: translateY(-4.5cm);
+  transition: 0;
+  }
+
+    .imgAng1{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 1rem;
+    border-radius: 40%;
+    cursor: pointer;
+    }
+ 
+    .fenetreFrancais p{
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+    font-size: 20px;
+    cursor: pointer;
+    }
+
+    .show{
+      transform: translateY(0);
+      transition: 0.14s;
+    }
+
+    #ang{
+      cursor: pointer;
+    }
+
+    .container_responsive{
+      display: none;
+    }
+  
+/*     
+    li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+    } */
+    
+    /* li a:hover:not(.active) {
+      background-color: #ddd;
+    }
+    
+    li a.active {
+      color: white;
+      background-color: #04AA6D;
+    } */
+
+/* carousel */
+  .container{
+  position:relative;
+  top:6.1rem;
+  left:-1.4rem;
+  width:120%;
+  }
+
+  #myCarousel{
+  width:119.55%;
+  height:87vh;
+  position:relative;
+  top:2rem;
+  left:-10.1rem;
+  }
+
+  #myCarousel img{
+  width:118%;
+  height:87vh;
+  }
+
+  #inner{
+  width:100%;
+  height:87vh;
+  position: absolute;
+  top: 0;
+  }
+
+  #lemurs{
+  position :absolute;
+  top: -7rem;
+  left: 7rem;
+  }
+
+  .baobab{
+  position :absolute;
+  top: -7rem;
+  left: 7rem;
+  }
+
+    #cameleon{
+  position :absolute;
+  top: -7rem;
+  left: 4rem;
+  width: 60vw;
+    }
+
+    #tsingy{
+  position :absolute;
+  top: -7rem;
+  left: 7rem;
+  }
+
+    /* fin carousel */
+
+    /* debut about */
+  .about{
+  position: relative;
+  top: 8.2rem;
+  width: 100%;
+  height: 110vh;
+  background-color: rgb(219, 222, 225);
+   
+  }
+
+  .about img{
+  position:relative;
+  left: -35.2rem;
+  top: 9rem;
+  width:522px;
+  height: 504px;
+  border-radius: 8px;
+  box-shadow: 3px 1px 13px;
+  }
+
+  .about h1{
+  position: absolute;
+  right: 29rem;
+  top: 6.9rem;
+  color: rgb(48, 46, 46);
+  font-size: 55.5px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  }
+
+  .border{
+  width: 1.7cm;
+  height: 8px;
+  background-color: #1ed661;
+  position: absolute;
+  right: 38rem;
+  top: 16.4rem;
+  }
+
+  .about_container{
+   width: 130.6vh;
+  position: relative;
+  left: -28rem;
+  top: 20.6rem;
+  float: right;
+  }
+
+  .about_container span{
+  font-size: 18px;
+  position: absolute;
+  width: 100.6vh;
+  }
+
+  /* fin about */
+
+  /* choix de madagascar */
+ .choice {
+  position: relative;
+  top: 6rem;
+  width: 100%;
+  height: 190vh;
+  background-color: #1ed661;
+  }
+
+  .choice h1{
+  position: absolute;
+  top: 4rem;
+  left: 27%;
+  font-size: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  }
+
+  /* fin choix */
+
+  /* debut tour */
+  .sites{
+    width:100%;
+    height:200vh;
+    position: relative;
+    background-color: #ffffff;
+  }
+
+ .i1{
+  width: 100%;
+  position: absolute;
+  top: 25.5rem;
+  height: 20rem;
+  background-color: #effff9ca;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 0rem;
+  padding-top: 2rem;
+  color: #31312e;
+ }
+
+ .i1 p{
+  font-size: 15.5px;
+  width: 30rem;
+  position: relative;
+  top: 1.5rem;
+  left: 2rem;
+  color: #b88806;
+ }
+
+ .i2{
+  width: 100%;
+  position: absolute;
+  top: 25.5rem;
+  height: 20rem;
+  background-color: #effff9ca;
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 11rem;
+  padding-top: 2rem;
+ }
+
+ .i2 p{
+  font-size: 15.5px;
+  width: 30rem;
+  position: relative;
+  top: 1.5rem;
+  color: #b88806;
+  left: -8rem;
+ }
+
+ .i3{
+  width: 100%;
+  position: absolute;
+  top: 25.5rem;
+  height: 20rem;
+  background-color: #effff9ca;
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 11rem;
+  padding-top: 2rem;
+  
+ }
+
+ .i3 p{
+  font-size: 15.5px;
+  width: 30rem;
+  position: relative;
+  top: 1.5rem;
+  left: -8rem;
+  color: #b88806;
+ }
+ 
+
+  .border2{
+  width: 1.7cm;
+  height: 8px;
+  background-color: #d6d61e;
+  position: absolute;
+  right: 66rem;
+  top: 13.6rem;
+  }
+
+  .galerie_1{
+  display: flex;
+  position: relative;
+  top: 19rem;
+  }
+
+  .galerie_1 .item_2{
+  width: 12cm;
+  }
+
+  .galerie_1 .item_2 span{
+  font-size: 21.7px;
+  position: absolute;
+  left: 47rem;
+  top: 13rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .galerie_1 img{
+  width: 11.87cm;
+  height: 8.1cm;
+  }
+
+  .galerie_2 img{
+    width: 11.87cm;
+    height: 8.1cm;
+  }
+
+  .galerie_2{
+  display: flex;
+  position: relative;
+  top: 19rem;
+  }
+
+  .galerie_2 .item_2{
+  position: relative;
+  left: -0.3rem;
+  }
+
+  .galerie_2 .item_1 span{
+  font-size: 21.7px;
+  position: absolute;
+  left: 8rem;
+  top: 12.5rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .galerie_2 .item_3{
+  position: relative;
+  left: 5.3rem;
+  }
+
+  .galerie_2 .item_1{
+    width: 12cm;
+  }
+
+  .galerie_2 .item_3{
+     width: 10cm;
+  }
+  .galerie_2 .item_3 span{
+  font-size: 21.7px;
+  position: absolute;
+  left: 1.5rem;
+  top: 12.5rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .galerie_3{
+  display: flex;
+  position: relative;
+  top: 19rem;
+  
+  }
+
+  .galerie_3 img{
+    width: 11.92cm;
+    height: 8.1cm;
+  }
+
+  .galerie_3 .item_3 img{
+  font-size: 21.7px;
+  position: relative;
+  left: 7rem;
+  top: 0rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+
+  .galerie_3 .item_2{
+  width: 10cm;
+  float:right;
+  }
+
+  .galerie_3 .item_2 span{
+  font-size: 21.7px;
+  position: absolute;
+  left: 50.5rem;
+  top: 12.5rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+    /* fin choix */
+
+    /* debut tour */
+  .border3{
+  width: 1.7cm;
+  height: 8px;
+  background-color: #1ed661;
+  position: absolute;
+  right: 68rem;
+  top: 13.6rem;
+  }
+
+  .sites h1{
+  position: absolute;
+  top: 4rem;
+  left: 30%;
+  font-size: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  }
+    
+  #sites_item1{
+  position:relative;
+  display: flex;
+  top:22rem;
+  }  
+
+  #sites_item1 .item_1{
+   background-image: url(circuits/pictures/fond.JPG); 
+   border-radius: 6px;
+   box-shadow: 0px 5px 12px black;
+   width:9cm;
+   height: 10cm;
+   position: absolute;
+   left: 12rem;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  #sites_item1 .item_2{
+    background-image: url(pictures/EST1.jpg); 
+    width:9cm;
+    height: 10cm;
+    border-radius: 6px;
+    box-shadow: 0px 5px 12px black;
+    position: absolute;
+    left: 54rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   #sites_item1 .item_3{
+    background-image: url(pictures/fosa.jpg); 
+    width:9cm;
+    border-radius: 6px;
+    box-shadow: 0px 5px 12px black;
+    height: 10cm;
+    position: absolute;
+    left: 95rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   #sites_item2{
+    position:relative;
+    display: flex;
+    top:69rem;
+    }  
+  
+    #sites_item2 .item_1{
+     background-image: url(logo/cameleon.jpg); 
+     width:9cm;
+     height: 10cm;
+     border-radius: 6px;
+     box-shadow: 0px 5px 12px black;
+     position: absolute;
+     left: 12rem;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+  
+    #sites_item2 .item_2{
+      background-image: url(logo/tsingyBemaraha.jpeg); 
+      width:9cm;
+      height: 10cm;
+      border-radius: 6px;
+      box-shadow: 0px 5px 12px black;
+      position: absolute;
+      left: 54rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+  
+     #sites_item2 .item_3{
+      background-image: url(pictures/sifaka.jpg); 
+      width:9cm;
+      height: 10cm;
+      position: absolute;
+      border-radius: 6px;
+      box-shadow: 0px 5px 12px black;
+      left: 95rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+  
+  
+
+/* fin tour */
+
+/* debut footer */
+footer{
+  position: relative;
+  top: -6rem;
+  background-color: rgba(0, 0, 0, 0.705);
+  width :100%;
+  height: 55vh;
+}
+
+.footer_contact{
+   width: 45%;
+   position: relative;
+   top: 5rem;
+   left: 40%;
+}
+
+.footer_contact h1{
+  font-size: 36px;
+  color: #ffffff;
+  margin-left: -18.8rem;
+}
+
+.mail{
+  font-size: 20px;
+  position: absolute;
+  top: 5rem;
+  left :-0.5rem;
+  color: #ffffff;
+}
+
+.phone{
+  font-size: 20px;
+  position: absolute;
+  top: 8rem;
+  left :-0.5rem;
+  color: #ffffff;
+}
+
+.footer_contact p:nth-last-child(3){
+  font-size: 22px;
+  position: absolute;
+  top: 11.1rem;
+  left :-0.5rem;
+  color: #ffffff;
+}
+
+
+div.icones img:nth-last-child(1){
+ position: absolute;
+ top:20rem;
+ left: 0rem;
+}
+
+.img_fb{
+  position: absolute;
+  top:0rem;
+  left: 7rem;
+ }
+
+ div.icones img:nth-last-child(3){
+  position: absolute;
+  top:20rem;
+  left: 14rem;
+ }
+ 
+ .icones{
+  position: relative;
+  top: -6rem;
+  left: 3rem;
+ }
+
+ .border_{
+  position: absolute;
+  top: 17rem;
+  left: 7.2rem;
+  width: 2.6cm;
+  height: 4px;
+  background-color: #ffffff;
+ }
+
+ .footCopright{
+  position: absolute;
+  top: 34.4rem;
+  width: 100%;
+  height: 1.6cm;
+  background-color: rgba(40, 37, 37, 0.921);
+  font-size: 20px;
+  padding-top: 1.5rem;
+  color: rgb(212, 205, 205);
+ }
+
+ /* fin footer */
+    }
+
+/* fin version ordinateur */
+
+/*debut version tablette*/
+@media screen and ((min-width: 700px) and (max-width:1199px)) {
+        /* barre de navigation */
+        header{
+          position: fixed;
+          width: 100%;
+          top: 0;
+          height: 2cm;
+          background-color: #ffffff;
+
+        }
+  
+      header ul{
+              display: block;
+              z-index: 4;
+              position: absolute;
+              left: 00.1rem;
+              align-items: center;
+              text-align: center;
+              justify-content: center;
+              top: -0rem;
+              padding-bottom: 14.5cm;
+
+      }
+  
+         li{
+                  margin: 29px;
+                  
+          }
+          
+          
+          .logo{
+          position: fixed;
+          top: 1rem;
+          left: 3rem;
+          width: 3.6cm;
+          height: 1.7cm;
+          z-index: 6;
+          }
+          
+           
+          .header{
+            position :absolute;
+            top: 7.78rem;
+            transform: translateY(-140rem);
+            width: 100%;
+            height: 43rem;
+            background-color: #1ed661;
+            z-index: 4;
+            transition : 0.6s;
+            }
+            
+            
+            .versionAng{
+            margin: 7rem;
+            position: absolute;
+            top: 34rem;
+            left: 49.5rem;
+            text-align: center;
+            }
+          
+            #ang{
+              cursor: pointer;
+              position: absolute;
+              top:0;
+            }
+            
+            .logoBurger i{
+            font-size: 36px;
+            position: absolute;
+            float: right; 
+            left: 120.6rem;
+            top: 1.5rem;
+            border-radius: 50%;
+            padding: 7px;
+            border: 1.5px solid black;
+            z-index: -4;
+            color:black;
+
+            }
+  
+            .logoBurger i:hover{
+              border: 0px solid #1ed661;
+              background-color: #1ed640;
+            }
+            
+            
+          
+           
+            .hideshow{
+              transform: translateY(-0.2rem);
+              transition: 0.5s;
+            }
+  
+/*     
+    li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+    } */
+    
+    /* li a:hover:not(.active) {
+      background-color: #ddd;
+    }
+    
+    li a.active {
+      color: white;
+      background-color: #04AA6D;
+    } */
+
+/* carousel */
+  .container{
+  position:absolute;
+  top:6.1rem;
+  left:-8rem;
+  height: 80rem;
+  width:170vw;
+  }
+
+  #myCarousel{
+  width:171vw;
+  height:80rem;
+  position:absolute;
+  top:2rem;
+  left:0rem;
+  }
+
+  #myCarousel img{
+  width:171vw;
+  height:80rem;
+  }
+
+  #inner{
+  width:171vw;
+  height:80rem;
+  position: absolute;
+  top: 0;
+  }
+
+  #lemurs{
+  position :absolute;
+  top: -7rem;
+  left: 12rem;
+  }
+
+  .baobab{
+  position :absolute;
+  top: -7rem;
+  left: 7rem;
+  }
+
+    #cameleon{
+  position :absolute;
+  top: -7rem;
+  left: 4rem;
+  width: 90rem;
+    }
+
+    #tsingy{
+  position :absolute;
+  top: -7rem;
+  left: 7rem;
+  }
+
+    /* fin carousel */
+
+    /* debut about */
+  .about{
+  position: absolute;
+  top: 89.2rem;
+  width: 161.5%;
+  height: 90rem;
+  background-color: rgb(219, 222, 225);
+   
+  }
+
+  .about img{
+  position:absolute;
+  left: 8.2rem;
+  top: 9rem;
+  width:522px;
+  height: 544px;
+  border-radius: 8px;
+  box-shadow: 3px 1px 13px;
+  }
+
+  .about h1{
+  position: absolute;
+  right: 29rem;
+  top: 6.9rem;
+  color: rgb(48, 46, 46);
+  font-size: 55.5px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  }
+
+  .border{
+  width: 1.7cm;
+  height: 8px;
+  background-color: #1ed661;
+  position: absolute;
+  right: 38rem;
+  top: 16.4rem;
+  }
+
+  .about_container{
+   width: 50.6rem;
+  position: absolute;
+  left: 65rem;
+  top: 22.6rem;
+  float: right;
+  }
+
+  .about_container span{
+  font-size: 18px;
+  position: absolute;
+  }
+
+  /* fin about */
+
+  /* choix de madagascar */
+  .choice{
+  position: absolute;
+  top: 179.2rem;
+  width: 161.5%;
+  height: 115rem;
+  background-color: #1ed661;
+  }
+
+  .choice h1{
+  position: absolute;
+  top: 4rem;
+  left: 27%;
+  font-size: 38px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  }
+
+  .galerie_1{
+    display: flex;
+    position: absolute;
+    top: 19rem;
+    }
+  
+  .galerie_1 .item_2{
+  width: 11cm;
+    }
+  
+    .galerie_1 .item_2 span{
+    font-size: 19.7px;
+    position: relative;
+    left: 2rem;
+    top: 13rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .galerie_1 img{
+    width: 53vw;
+    height: 8.1cm;
+    }
+  
+    .galerie_2 img{
+      width: 53 vw;
+      height: 8.1cm;
+      
+    }
+  
+    .galerie_2{
+    display: flex;
+    position: absolute;
+    top: 50rem;
+    }
+  
+    .galerie_2 .item_2 img{
+      width : 53vw;
+    position: absolute;
+    left: -4.1rem;
+    }
+  
+    .galerie_2 .item_1 span{
+    font-size: 21.7px;
+    position: absolute;
+    left: 8rem;
+    top: 12.5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .galerie_2 .item_3{
+    position: relative;
+    left: 1rem;
+    }
+  
+    .galerie_2 .item_1{
+      width: 12cm;
+    }
+  
+    .galerie_2 .item_3{
+       width: 8cm;
+    }
+    .galerie_2 .item_3 span{
+    font-size: 21.7px;
+    position:relative;
+    left: 40.5rem;
+    top: 12.5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .galerie_3{
+    display: flex;
+    position: absolute;
+    top: 80.6rem;
+    
+    }
+  
+    .galerie_3 img{
+      width: 53vw;
+      height: 8.1cm;
+    }
+  
+    .galerie_3 .item_3 img{
+    font-size: 21.7px;
+    position: relative;
+    left: 3.2rem;
+    top: 0rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+  
+    .galerie_3 .item_2{
+    width: 10cm;
+    float:right;
+    }
+  
+    .galerie_3 .item_2 span{
+    font-size: 21.7px;
+    position: absolute;
+    left: 46.5rem;
+    top: 12.5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+
+  /* fin choix */
+
+  /* debut tour */
+  .sites{
+    width:100%;
+    height:200vh;
+    position: absolute;
+    top: 298rem;
+  }
+
+  .border2{
+  width: 1.7cm;
+  height: 8px;
+  background-color: #d6d61e;
+  position: absolute;
+  right: 66rem;
+  top: 13.6rem;
+  }
+
+ 
+    /* fin choix */
+
+    /* debut tour */
+  .border3{
+  width: 1.7cm;
+  height: 8px;
+  background-color: #1ed661;
+  position: absolute;
+  right: 14rem;
+  top: 18.6rem;
+  }
+
+  .sites h1{
+  position: absolute;
+  top: 8rem;
+  left: 35%;
+  font-size: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  width : 70rem;
+  color: #312e2e;
+  }
+    
+  #sites_item1{
+  position:relative;
+  display: flex;
+  top:35rem;
+  left: -7rem;
+  }  
+
+  #sites_item1 .item_1{
+   background-image: url(logo/adansonia-1140x420.jpg); 
+   width:7.6cm;
+   height: 10cm;
+   position: absolute;
+   left: 12rem;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  #sites_item1 .item_1:hover{
+    transform: translateY(-36px);
+  }
+
+  #sites_item1 .item_2{
+    background-image: url(pictures/EST1.jpg); 
+    width:7.6cm;
+    height: 10cm;
+    position: absolute;
+    left: 54rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   #sites_item1 .item_2:hover{
+    transform: translateY(-36px);
+  }
+
+   #sites_item1 .item_3{
+    background-image: url(pictures/fosa.jpg); 
+    width:7.6cm;
+    height: 10cm;
+    position: absolute;
+    left: 95rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   #sites_item1 .item_1:hover{
+  transform: translateY(-36px);
+}
+
+   #sites_item2{
+    position:relative;
+    display: flex;
+    top:85rem;
+    left: -7rem;
+    }  
+  
+    #sites_item2 .item_1{
+     background-image: url(logo/cameleon.jpg); 
+     width:7.6cm;
+     height: 10cm;
+     position: absolute;
+     left: 12rem;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+  
+    #sites_item2 .item_2{
+      background-image: url(logo/tsingyBemaraha.jpeg); 
+      width:7.6cm;
+      height: 10cm;
+      position: absolute;
+      left: 54rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+  
+     #sites_item2 .item_3{
+      background-image: url(pictures/sifaka.jpg); 
+      width:7.6cm;
+      height: 10cm;
+      position: absolute;
+      left: 95rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+  
+  
+
+/* fin tour */
+
+/* debut footer */
+footer{
+  position: absolute;
+  top: 438rem;
+  background-color: rgba(0, 0, 0, 0.705);
+  width :161%;
+  height: 45rem;
+  padding-bottom: -20rem;
+}
+
+.footer_contact{
+   width: 45%;
+   position: relative;
+   top: 5rem;
+   left: 40%;
+}
+
+.footer_contact h1{
+  font-size: 36px;
+  color: #ffffff;
+  margin-left: 3.8rem;
+}
+
+.mail{
+  font-size: 20px;
+  position: absolute;
+  top: 5rem;
+  left :-0.5rem;
+  color: #ffffff;
+}
+
+.phone{
+  font-size: 20px;
+  position: absolute;
+  top: 8rem;
+  left :-0.5rem;
+  color: #ffffff;
+}
+
+.footer_contact p:nth-last-child(3){
+  font-size: 22px;
+  position: absolute;
+  top: 11.1rem;
+  left :-0.5rem;
+  color: #ffffff;
+}
+
+
+ .icones{
+  position: relative;
+  top: -6rem;
+  left: 3rem;
+ }
+
+ .border_{
+  position: absolute;
+  top: 17rem;
+  left: 7.2rem;
+  width: 2.6cm;
+  height: 4px;
+  background-color: #ffffff;
+ }
+
+ .footCopright{
+  position: absolute;
+  top: 39.4rem;
+  width: 100%;
+  height: 1.6cm;
+  background-color: rgba(40, 37, 37, 0.921);
+  font-size: 20px;
+  padding-top: 1.5rem;
+  color: rgb(212, 205, 205);
+ }
+
+ /* fin footer */
+}
+/* fin version tablette */
+
+/* debut version telephone */
+@media screen  and  (min-width: 375px) and  (max-width:699px){
+
+
+  /* fin footer */
+
+  @media screen and (min-width: 412px) and (max-width: 420px) {
+    .about h1{
+      font-size: 29.5px;
+      position: absolute;
+      left: 11.5rem;
+      width :4cm;
+      top: 1rem;
+    }
+
+    .versionAng{
+      margin: 7rem;
+      position: absolute;
+      top: 34rem;
+      left: 5.5rem;
+      }
+
+    ul{
+      position: absolute;
+     margin-left: -4rem;
+    }
+    
+    .border{
+    position: absolute;
+    left: 16.2rem;
+    top: 7.9rem;
+    height: 5.2px;
+    width: 1.4cm;
+    }
+    
+    .sites{
+      width:100%;
+      height:200vh;
+      position: absolute;
+      top: 358rem;
+    }
+    
+    .border2{
+    width: 1.7cm;
+    height: 8px;
+    background-color: #d6d61e;
+    position: absolute;
+    margin-left: 08rem;
+    top: 13.6rem;
+    }
+    
+    
+      /* fin choix */
+    
+      /* debut tour */
+    .border3{
+    width: 1.7cm;
+    height: 8px;
+    background-color: #1ed661;
+    position: absolute;
+    left: 14.5rem;
+    top: 15.6rem;
+    }
+    
+    
+    .sites h1{
+    position: absolute;
+    top: 8rem;
+    left: 5%;
+    text-align: center;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    width : 35rem;
+    }
+      
+    #sites_item1{
+    position:relative;
+    display: flex;
+    top:28rem;
+    left: -7rem;
+    text-align: center;
+    }  
+    
+    #sites_item1 .item_1{
+     background-image: url(circuits/pictures/fond.JPG); 
+     width:90vw;
+     text-align: center;
+     height: 10cm;
+     position: absolute;
+     left: 9rem;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
+    .i1{
+      padding-left: 0rem;
+      height: 13rem;
+      color: #312e2e;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+    
+    #sites_item1 .item_1:hover{
+      transform: translateY(-36px);
+    }
+    
+    #sites_item1 .item_2{
+      background-image: url(pictures/EST1.jpg); 
+     
+      width:90vw;
+     text-align: center;
+     height: 10cm;
+     position: absolute;
+     left: 9rem;
+      top: 50rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+    
+     .i2{
+      padding-left: 0rem;
+      height: 12.3rem;
+      color: #312e2e;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+    
+    .i2 p{
+      width: 30rem;
+      position: relative;
+      top: 1.5rem;
+      color: #b88806;
+      left: 1rem;
+     }
+    
+    
+     #sites_item1 .item_2:hover{
+      transform: translateY(-36px);
+    }
+    
+     #sites_item1 .item_3{
+      background-image: url(pictures/fosa.jpg); 
+      width:90vw;
+      text-align: center;
+      height: 10cm;
+      position: absolute;
+      left: 9rem;
+      top: 93rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+    
+    
+     #sites_item1 .item_3:hover{
+      transform: translateY(-36px);
+    }
+    .i3{
+      padding-left: 0rem;
+      height: 12.3rem;
+      color: #312e2e;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+    
+    .i3 p{
+      width: 30rem;
+      position: relative;
+      top: 1.5rem;
+      color: #b88806;
+      left: 1rem;
+     }
+    
+    
+     #sites_item2{
+      position:relative;
+      display: flex;
+      top:85rem;
+      left: -7rem;
+      display: none;
+      }  
+    
+      #sites_item2 .item_1{
+       background-image: url(logo/cameleon.jpg); 
+       width:7.6cm;
+       height: 10cm;
+       position: absolute;
+       left: 12rem;
+       background-repeat: no-repeat;
+       background-size: cover;
+      }
+    
+      #sites_item2 .item_2{
+        background-image: url(logo/tsingyBemaraha.jpeg); 
+        width:7.6cm;
+        height: 10cm;
+        position: absolute;
+        left: 54rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+       #sites_item2 .item_3{
+        background-image: url(pictures/sifaka.jpg); 
+        width:7.6cm;
+        height: 10cm;
+        position: absolute;
+        left: 95rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+    
+    
+      /* fin about */
+    
+       /* debut choix */
+    .choice{
+    position: absolute;
+    top: 161rem;
+    height: 201rem;
+      }
+    
+    
+    
+    .choice h1{
+    font-size: 21px;
+    position: absolute;
+    left: 3rem;
+    }
+    
+    .border2{
+    position: absolute;
+    left: 7rem;
+    top: 10rem;
+    width: 1.7cm;
+    height: 6px;
+    }
+    
+    .galerie_1{
+    position: relative;
+    top: 19rem;
+    left: 0;
+    }
+      
+    .galerie_1 .item_2{
+    width: 12cm;
+    display: none;
+    }
+      
+      .galerie_1 .item_2 span{
+      font-size: 25.7px;
+      width : 9.5cm;
+      text-align: center;
+      position: absolute;
+      left: 45rem;
+      top: 13rem;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      .galerie_1 .item_1 img{
+      width: 90%;
+      height: 8cm;
+      position: absolute;
+      left:2rem;
+      border-radius: 7px;
+      box-shadow: 4px 10px 12px black;
+      }
+    
+      .galerie_1 .item_2{
+        position: absolute;
+        top: 25rem;
+        left: -40rem;
+        width: 70rem;
+      }
+    
+      .galerie_1 .item_2 span{
+        font-size: 23.5px;
+      }
+    
+      .galerie_1 .item_3 img{
+        width: 90%;
+      height: 8cm;
+      position: absolute;
+      left:2rem;
+        top: 35.6rem;
+        border-radius: 7px;
+        box-shadow: 4px 10px 12px black;
+        
+        }
+       
+      .galerie_2{
+      position: relative;
+      top: 68.7rem;
+    
+      }
+      
+      .galerie_2 .item_3{
+        position: relative;
+        left: 0rem;
+        display: none;
+        }
+      
+    .galerie_2 .item_1{
+    width: 10cm;
+    display: none;
+    }
+    
+    .galerie_2 .item_2{
+      position: absolute;
+      top: 22rem;
+      left:0rem;
+    }
+    
+    .galerie_2 .item_2 img{
+      width:  90%;
+      height: 7.1cm;
+      border-radius: 7px;
+        box-shadow: 4px 10px 12px black;
+        
+    }
+      
+    
+      .galerie_2 .item_3 span{
+      font-size: 21px;
+      position: absolute;
+      left: -14.5rem;
+      text-align: center;
+      top: 64.5rem;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      .galerie_3{
+      position: relative;
+      top: 124rem;
+      }
+    
+      .galerie_3 img{
+        width: 11.81cm;
+        height: 7.1cm;
+      }
+    
+      .galerie_3 .item_1 img{
+        position: absolute;
+        left: 0;
+        width: 90%;
+        height: 8cm;
+        position: absolute;
+        left:2rem;
+        border-radius: 7px;
+        box-shadow: 4px 10px 12px black;
+      }
+    
+    
+      
+      .galerie_3 .item_3 img{
+      position: absolute;
+      width: 90%;
+      height: 8cm;
+      left:2rem;
+      top: 37rem;    
+      border-radius: 7px;
+        box-shadow: 4px 10px 12px black;
+      }
+      
+      .galerie_3 .item_2{
+      width: 10cm;
+      float:right;
+      display: none;
+      }
+      
+      .galerie_3 .item_2 span{
+      font-size: 22.7px;
+      position: absolute;
+      left: 7.4rem;
+      text-align:center ;
+      top: 39.5rem;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    
+  }
+ 
+}
+/* fin version telephone */
+   
+@media screen  and (max-width:374px) and (min-width: 320px){
+  header{
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+    }
+
+   
+    
+    .logo{
+    position: fixed;
+    top: 1rem;
+    left: 3rem;
+    width: 3.6cm;
+    height: 1.7cm;
+    z-index: 6;
+    }
+    
+     
+    .header{
+      position :absolute;
+      top: 7.78rem;
+      transform: translateY(-140rem);
+      width: 100%;
+      height: 44rem;
+      background-color: #1ed661;
+      z-index: 4;
+      transition : 0.6s;
+      z-index: 4;
+      }
+      
+      
+      header ul{
+      display: block;
+      z-index: 4;
+      position: absolute;
+      left: 2.6rem;
+      align-items: center;
+      justify-content: center;
+      top: -2.3rem;
+      padding-bottom: 14.5cm;
+      }
+      
+      header ul li{
+      margin: 24.2px;
+      }
+      header ul li a{
+        font-size: 22px;
+        padding: 12px;
+      }   
+      .versionAng{
+      margin: 7rem;
+      position: absolute;
+      top: 34rem;
+      left: 3.5rem;
+      }
+  
+      #ang{
+        cursor: pointer;
+        position: absolute;
+        top:0;
+      }
+      
+      .logoBurger i{
+      font-size: 32px;
+      position: absolute;
+      float: right; 
+      left: 38rem;
+      top: 1.6rem;
+      border-radius: 50%;
+      padding: 7px;
+      border: 1.5px solid black;
+      z-index: -4;
+      }
+
+      
+  .logoBurger i:hover{
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+      
+      .hideshow{
+        transform: translateY(-0.2rem);
+        transition: 0.5s;
+      }
+       
+      /* carousel */
+      .container{
+        width: 100%;
+        height: 65rem;
+        position: absolute;
+        top: 8.3rem;
+        left:0rem;
+        display: none;
+        }
+        
+        .container_responsive{
+          width: 100%;
+        height: 65rem;
+        position: absolute;
+        top: 4.5rem;
+        left:0rem;
+        display: inline-block;
+        }
+        
+        
+        #inner{
+          width: 100%;
+        height: 61rem; 
+        }
+        
+        #inner img{
+          width: 100%;
+        height:61rem;
+        position: relative;
+        top: 5rem;
+        left: 0.4rem;
+        }
+        
+        #Carousel{
+          width: 100%;
+        height:60rem;
+        position: relative;
+        left: 0rem;
+        top: -5rem;
+        }
+    
+    #lemurs{
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -10rem;
+    display: none;
+    }
+       
+    .baobab{
+    font-size: 20px;
+    position: absolute;
+    left: 0;top: -10rem;
+    
+    }
+    
+    
+    #cameleon{
+    font-size: 20px;
+    position: absolute;
+    left: 2.5rem; 
+    top: -10rem;
+    }
+    
+    #tsingy{
+    font-size: 20px;
+    position: absolute;
+    left: 1rem; 
+    top: -10rem;
+    }
+    
+        /* fin carousel */
+    
+        /* debut about */
+    .about{
+      position: absolute;
+      top: 64.4rem;
+      width: 100%;
+      height: 97rem;
+      }
+    
+    .about_container{
+       width: 100%;
+       position: absolute;
+    }
+    
+    .about_container span{
+      font-size: 15px;
+      position: absolute;
+      width: 90%;
+      top: -10rem;
+      left: 29rem;
+    }
+    
+    .about img{
+      width: 85vw;
+      height: 8cm;
+      position: absolute;
+      top: 62rem;
+      left: 2.5rem;
+    }
+    
+    .about h1{
+      font-size: 29.5px;
+      position: absolute;
+      left: 11.5rem;
+      width :4cm;
+      top: 1rem;
+    }
+    
+    .border{
+    position: absolute;
+    left: 16.2rem;
+    top: 7.9rem;
+    height: 5.2px;
+    width: 1.4cm;
+    }
+    
+    .sites{
+      width:100%;
+      height:200vh;
+      position: absolute;
+      top: 358rem;
+    }
+    
+    .border2{
+    width: 1.7cm;
+    height: 8px;
+    background-color: #d6d61e;
+    position: absolute;
+    margin-left: 08rem;
+    top: 13.6rem;
+    }
+    
+    
+      /* fin choix */
+    
+      /* debut tour */
+    .border3{
+    width: 1.7cm;
+    height: 8px;
+    background-color: #1ed661;
+    position: absolute;
+    left: 14.5rem;
+    top: 15.6rem;
+    }
+    
+    
+    .sites h1{
+    position: absolute;
+    top: 8rem;
+    left: 5%;
+    text-align: center;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    width : 35rem;
+    }
+      
+    #sites_item1{
+    position:relative;
+    display: flex;
+    top:28rem;
+    left: -7rem;
+    text-align: center;
+    }  
+    
+    #sites_item1 .item_1{
+     background-image: url(circuits/pictures/fond.JPG); 
+     width:90%;
+     text-align: center;
+     height: 10cm;
+     position: absolute;
+     left: 9rem;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
+    .i1{
+      padding-left: 0rem;
+      height: 12.3rem;
+      color: #312e2e;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+    
+    #sites_item1 .item_1:hover{
+      transform: translateY(-36px);
+    }
+    
+    #sites_item1 .item_2{
+      background-image: url(pictures/EST1.jpg); 
+     
+      width:90%;
+     text-align: center;
+     height: 10cm;
+     position: absolute;
+     left: 9rem;
+      top: 50rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+    
+     .i2{
+      padding-left: 0rem;
+      height: 12.3rem;
+      color: #312e2e;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+    
+    .i2 p{
+      width: 30rem;
+      position: relative;
+      top: 1.5rem;
+      color: #b88806;
+      left: 1rem;
+     }
+    
+    
+     #sites_item1 .item_2:hover{
+      transform: translateY(-36px);
+    }
+    
+     #sites_item1 .item_3{
+      background-image: url(pictures/fosa.jpg); 
+      width:90%;
+      text-align: center;
+      height: 10cm;
+      position: absolute;
+      left: 9rem;
+      top: 93rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+    
+    
+     #sites_item1 .item_3:hover{
+      transform: translateY(-36px);
+    }
+    .i3{
+      padding-left: 0rem;
+      height: 12.3rem;
+      color: #312e2e;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+    
+    .i3 p{
+      width: 30rem;
+      position: relative;
+      top: 1.5rem;
+      color: #b88806;
+      left: 1rem;
+     }
+    
+    
+     #sites_item2{
+      position:relative;
+      display: flex;
+      top:85rem;
+      left: -7rem;
+      display: none;
+      }  
+    
+      #sites_item2 .item_1{
+       background-image: url(logo/cameleon.jpg); 
+       width:7.6cm;
+       height: 10cm;
+       position: absolute;
+       left: 12rem;
+       background-repeat: no-repeat;
+       background-size: cover;
+      }
+    
+      #sites_item2 .item_2{
+        background-image: url(logo/tsingyBemaraha.jpeg); 
+        width:7.6cm;
+        height: 10cm;
+        position: absolute;
+        left: 54rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+       #sites_item2 .item_3{
+        background-image: url(pictures/sifaka.jpg); 
+        width:7.6cm;
+        height: 10cm;
+        position: absolute;
+        left: 95rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+    
+    
+    
+      /* fin about */
+    
+       /* debut choix */
+    .choice{
+    position: absolute;
+    top: 161rem;
+    height: 201rem;
+      }
+    
+    
+    
+    .choice h1{
+    font-size: 21px;
+    position: absolute;
+    left: 2rem;
+    }
+    
+    .border2{
+    position: absolute;
+    left: 7rem;
+    top: 10rem;
+    width: 1.7cm;
+    height: 6px;
+    }
+    
+    .galerie_1{
+    position: relative;
+    top: 19rem;
+    left: 0;
+    }
+      
+    .galerie_1 .item_2{
+    width: 12cm;
+    display: none;
+    }
+      
+      .galerie_1 .item_2 span{
+      font-size: 25.7px;
+      width : 9.5cm;
+      text-align: center;
+      position: absolute;
+      left: 45rem;
+      top: 13rem;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      .galerie_1 .item_1 img{
+      width: 90%;
+      height: 8cm;
+      position: absolute;
+      left:2rem;
+      border-radius: 7px;
+      box-shadow: 4px 10px 12px black;
+      }
+    
+      .galerie_1 .item_2{
+        position: absolute;
+        top: 25rem;
+        left: -40rem;
+        width: 70rem;
+      }
+    
+      .galerie_1 .item_2 span{
+        font-size: 23.5px;
+      }
+    
+      .galerie_1 .item_3 img{
+        width: 90%;
+      height: 8cm;
+      position: absolute;
+      left:2rem;
+        top: 35.6rem;
+        border-radius: 7px;
+        box-shadow: 4px 10px 12px black;
+        
+        }
+       
+      .galerie_2{
+      position: relative;
+      top: 68.7rem;
+    
+      }
+      
+      .galerie_2 .item_3{
+        position: relative;
+        left: 0rem;
+        display: none;
+        }
+      
+    .galerie_2 .item_1{
+    width: 10cm;
+    display: none;
+    }
+    
+    .galerie_2 .item_2{
+      position: absolute;
+      top: 22rem;
+      left:0rem;
+    }
+    
+    .galerie_2 .item_2 img{
+      width:  90%;
+      height: 7.1cm;
+      border-radius: 7px;
+        box-shadow: 4px 10px 12px black;
+        
+    }
+      
+    
+      .galerie_2 .item_3 span{
+      font-size: 21px;
+      position: absolute;
+      left: -14.5rem;
+      text-align: center;
+      top: 64.5rem;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      .galerie_3{
+      position: relative;
+      top: 124rem;
+      }
+    
+      .galerie_3 img{
+        width: 11.81cm;
+        height: 7.1cm;
+      }
+    
+      .galerie_3 .item_1 img{
+        position: absolute;
+        left: 0;
+        width: 90%;
+        height: 8cm;
+        position: absolute;
+        left:2rem;
+        border-radius: 7px;
+        box-shadow: 4px 10px 12px black;
+      }
+    
+    
+      
+      .galerie_3 .item_3 img{
+      position: absolute;
+      width: 90%;
+      height: 8cm;
+      left:2rem;
+      top: 37rem;    
+      border-radius: 7px;
+        box-shadow: 4px 10px 12px black;
+      }
+      
+      .galerie_3 .item_2{
+      width: 10cm;
+      float:right;
+      display: none;
+      }
+      
+      .galerie_3 .item_2 span{
+      font-size: 22.7px;
+      position: absolute;
+      left: 7.4rem;
+      text-align:center ;
+      top: 39.5rem;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    
+      .fenetreFrancais{
+        display: none;
+      }
+    
+      /* fin choix */
+    
+      /* debut footer */
+         footer{
+           position: absolute;
+           top: 525rem;
+           height: 48.85rem;
+         }
+    
+    
+      .footer_contact h1{
+        position: absolute;
+        left: -9rem;
+      }
+    
+      .footer_contact{
+        width: 45%;
+        position: absolute;
+        top: 5rem;
+        left: 40%;
+     }
+     
+     .mail{
+       font-size: 20px;
+       position: absolute;
+       top: 7rem;
+       left :-13.5rem;
+       color: #ffffff;
+     }
+     
+     .phone{
+       font-size: 19px;
+       position: absolute;
+       top: 10rem;
+       left :-13.5rem;
+       color: #ffffff;
+     }
+     
+     .footer_contact p:nth-last-child(3){
+       font-size: 18px;
+       position: absolute;
+       top: 13.1rem;
+       left :-13.0rem;
+       color: #ffffff;
+     }
+      
+      .icones{
+       position: relative;
+       top: 2rem;
+       left: -7rem;
+      }
+     
+      .border_{
+       position: absolute;
+       top: 19rem;
+       left: -2.8rem;
+      }
+     
+  .footCopright{
+  position: absolute;
+  top: 48.8rem;
+  width: 100%;
+  height: 3.6cm;
+  background-color: rgba(40, 37, 37, 0.921);
+  font-size: 18px;
+  padding-top: 1.5rem;
+  color: rgb(212, 205, 205);
+  }
+
+  /* fin footer */
+        
+}
