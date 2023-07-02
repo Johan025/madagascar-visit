@@ -1,0 +1,2238 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+  background-color: white;
+  width: 10px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "unnabold";
+  src: url("fonts/unna-bold-webfont.woff2") format("woff2"), url("fonts/unna-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("fonts/battora-webfont.woff2") format("woff2"), url("./fonts/battora-webfont .woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("./fonts/alfaslabone-regular-webfont.woff2") format("woff2"), url("fonts/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "paytone_oneregular";
+  src: url("fonts/paytoneone-regular-webfont.woff2") format("woff2"), url("fonts/paytoneone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+  background-color: white;
+  width: 10px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "unnabold";
+  src: url("fonts/unna-bold-webfont.woff2") format("woff2"), url("fonts/unna-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("fonts/battora-webfont.woff2") format("woff2"), url("./fonts/battora-webfont .woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("./fonts/alfaslabone-regular-webfont.woff2") format("woff2"), url("fonts/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "paytone_oneregular";
+  src: url("fonts/paytoneone-regular-webfont.woff2") format("woff2"), url("fonts/paytoneone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    background-color: white;
+    height: 2.2cm;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+  }
+  .header {
+    background-color: white;
+    height: 2.2cm;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+  }
+  .logo {
+    width: 199px;
+    height: 68px;
+    left: 2rem;
+    position: fixed;
+    z-index: 4;
+    top: 1rem;
+  }
+  .logoBurger {
+    position: absolute;
+    left: -8rem;
+  }
+  header ul {
+    position: relative;
+    top: -2.5rem;
+    right: 4rem;
+    display: flex;
+    list-style-type: none;
+    height: 1cm;
+    padding-top: 5rem;
+    padding-bottom: 14rem;
+    overflow: hidden;
+    float: right;
+  }
+  li a {
+    margin: 6px;
+    font-size: 19px;
+    padding: 17px;
+    color: rgb(64, 56, 56);
+  }
+  li a:hover:not(.active) {
+    background-color: #d6d61e;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(64, 56, 56);
+  }
+  .versionAng {
+    margin-left: 11rem;
+    font-size: 19px;
+    color: rgb(64, 56, 56);
+  }
+  .imgAng {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    width: 30px;
+    border-radius: 40%;
+    height: 30px;
+  }
+  .imgAng .fenetreFrancais {
+    position: relative;
+    float: right;
+    z-index: 4;
+    transform: translateY(-4.5cm);
+    width: 5cm;
+    height: 2cm;
+    position: absolute;
+    top: 8.3rem;
+    left: 94rem;
+    border-radius: 4px;
+    background-color: #04AA6D;
+  }
+  .imgAng p {
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+    color: rgb(45, 45, 45);
+  }
+  .show {
+    transform: translateY(0);
+    transition: 0.14s;
+  }
+  #ang {
+    cursor: pointer;
+  }
+  .container_responsive {
+    display: none;
+  }
+  .active {
+    color: white;
+    background-color: #04AA6D;
+    border: opx solid;
+    border-width: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+}
+* {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+  background-color: white;
+  width: 10px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "unnabold";
+  src: url("fonts/unna-bold-webfont.woff2") format("woff2"), url("fonts/unna-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("fonts/battora-webfont.woff2") format("woff2"), url("./fonts/battora-webfont .woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("./fonts/alfaslabone-regular-webfont.woff2") format("woff2"), url("fonts/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "paytone_oneregular";
+  src: url("fonts/paytoneone-regular-webfont.woff2") format("woff2"), url("fonts/paytoneone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  .container_responsive {
+    display: none;
+  }
+  #prev1, #next1, #prev2, #next2 {
+    color: aliceblue;
+  }
+  /*     
+    li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+    } */
+  /* li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  } */
+  /* carousel */
+  .container {
+    position: relative;
+    top: 3.1rem;
+    left: -11.4rem;
+    width: 120%;
+  }
+  #myCarousel {
+    width: 119.4%;
+    height: 60rem;
+    position: relative;
+    top: 0rem;
+    left: -0.1rem;
+  }
+  #myCarousel img {
+    width: 118%;
+    height: 60rem;
+  }
+  #inner {
+    width: 100%;
+    height: 60rem;
+    position: absolute;
+    top: 0;
+  }
+  #inner button {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(8, 158, 63);
+    font-size: 25px;
+    color: white;
+    border: 0;
+    border-radius: 9px;
+    position: absolute;
+    top: -10rem;
+    left: 35%;
+    transform: translate(27%, 50%);
+    box-shadow: -4px 4px 18px rgb(0, 0, 0);
+  }
+  #inner h1 {
+    position: absolute;
+    top: -26rem;
+    left: -7vw;
+    font-size: 57px;
+    width: 75vw;
+    font-family: "yeseva_oneregular";
+  }
+  #inner h3 {
+    color: rgb(209, 118, 6);
+    position: absolute;
+    top: -32rem;
+    font-weight: 1000;
+    left: 35%;
+    font-size: 35px;
+    font-family: "coneria_script_demoregular";
+  }
+}
+.about {
+  position: relative;
+  top: 3rem;
+  width: 100%;
+  height: 65rem;
+  left: 0;
+  background-color: rgba(233, 233, 233, 0.765);
+}
+.about img {
+  border-radius: 8px;
+  box-shadow: 3px 1px 13px;
+  width: 38vw;
+  height: 444px;
+  position: absolute;
+  top: 9rem;
+  left: 6.2%;
+  border-radius: 4px;
+}
+.about h1 {
+  top: 6.9rem;
+  color: rgb(48, 46, 46);
+  font-family: "yeseva_oneregular";
+  font-size: 58.5px;
+  position: absolute;
+  left: 54%;
+  font-weight: 0;
+}
+.about .title_about {
+  position: absolute;
+  color: rgb(209, 118, 6);
+  top: 2.9rem;
+  font-weight: 1000;
+  left: 54%;
+  font-size: 28.6px;
+  font-family: "coneria_script_demoregular";
+}
+
+.border {
+  width: 1.7cm;
+  height: 8px;
+  background-color: #1ed661;
+  position: absolute;
+  right: 38rem;
+  top: 16.4rem;
+}
+
+.about_container {
+  width: 40.6vw;
+  position: relative;
+  left: -6vw;
+  top: 18.6rem;
+  float: right;
+}
+.about_container span {
+  font-size: 18px;
+  position: absolute;
+  color: black;
+  width: 44.6vw;
+}
+
+@media screen and (min-width: 1024px) {
+  .choice {
+    width: 100%;
+    height: 190vh;
+    position: absolute;
+    top: 131rem;
+    left: 0;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  .choice h3 {
+    color: rgb(209, 118, 6);
+    position: absolute;
+    top: 0rem;
+    font-weight: 1000;
+    left: 46%;
+    width: 30vw;
+    font-size: 28.6px;
+    font-family: "coneria_script_demoregular";
+  }
+  .choice h1 {
+    top: 4rem;
+    font-family: "yeseva_oneregular";
+    font-size: 40px;
+    position: absolute;
+    left: 20%;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.829);
+  }
+  .images_choice {
+    position: absolute;
+    display: flex;
+    top: 19rem;
+    left: 5%;
+  }
+  .images_choice img {
+    width: 37%;
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.684);
+    margin-left: 3rem;
+    height: 40rem;
+    border-radius: 6px;
+  }
+  .images_choice img:nth-last-child(2) {
+    position: relative;
+    top: 2rem;
+  }
+  .reason {
+    position: relative;
+    top: 12rem;
+    left: 45%;
+    width: 50vw;
+    display: block;
+  }
+  .reason h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width: 30vw;
+    margin-top: 5rem;
+    color: rgba(0, 0, 0, 0.647);
+    font-size: 35px;
+    position: absolute;
+    left: 23;
+    font-weight: bolder;
+  }
+  .reason .item {
+    position: absolute;
+    top: 14rem;
+  }
+  .reason .item div {
+    background-color: rgb(209, 118, 6);
+    margin-top: 8.9rem;
+    width: 29px;
+    border-radius: 50%;
+    height: 29px;
+    margin-left: 14rem;
+  }
+  .reason .item div h1 {
+    font-size: 23px;
+    position: relative;
+    left: 7vw;
+    top: 0rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .reason .item div p {
+    width: 35vw;
+    font-size: 16px;
+    position: absolute;
+    left: 17.2vw;
+    top: 12rem;
+    color: rgb(45, 45, 45);
+  }
+  .reason .item div .p_item_1 {
+    position: absolute;
+    top: 12rem;
+  }
+  .reason .item div .p_item_2 {
+    position: absolute;
+    top: 23.7rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sites {
+    width: 100%;
+    height: 190rem;
+    position: absolute;
+    top: 203rem;
+    background-color: #ffffff;
+  }
+  .sites h3 {
+    color: rgb(209, 118, 6);
+    width: 30vw;
+    font-weight: bolder;
+    font-family: "coneria_script_demoregular";
+    font-size: 27.6px;
+    position: absolute;
+    left: 44%;
+    font-weight: 0;
+  }
+  .sites h1 center {
+    top: 8rem;
+    color: rgb(48, 46, 46);
+    font-family: "yeseva_oneregular";
+    font-size: 38.5px;
+    position: absolute;
+    left: 30%;
+    font-weight: 0;
+    width: 40vw;
+  }
+  .sites #sites_item1 {
+    display: flex;
+    position: absolute;
+    top: 18rem;
+    left: 1vw;
+    text-align: center;
+  }
+  .sites #sites_item1 div {
+    height: 38rem;
+    width: 23vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10rem;
+    border-radius: 9px;
+    box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+  }
+  .sites #sites_item1 img {
+    height: 19rem;
+    width: 23vw;
+    border-radius: 9px;
+  }
+  .sites #sites_item1 .contain1 {
+    background-size: cover;
+  }
+  .sites #sites_item1 .contain1 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    position: absolute;
+    top: 18.6rem;
+    left: 1.4vw;
+    font-weight: 600;
+    width: 35vw;
+  }
+  .sites #sites_item1 .contain1 p {
+    position: absolute;
+    left: 10vw;
+    top: 23.5rem;
+    font-size: 18px;
+    text-align: center;
+    width: 18vw;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .sites #sites_item1 .contain1 button {
+    position: absolute;
+    left: 15.5vw;
+    top: 32.5rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  .sites #sites_item1 .contain1:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  .sites #sites_item1 .contain2 {
+    background-size: 100%;
+  }
+  .sites #sites_item1 .contain2 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    position: absolute;
+    top: 18.6rem;
+    left: 31.4vw;
+    font-weight: 600;
+    width: 35vw;
+  }
+  .sites #sites_item1 .contain2 p {
+    position: absolute;
+    left: 40vw;
+    top: 23.5rem;
+    font-size: 18px;
+    text-align: center;
+    width: 18vw;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .sites #sites_item1 .contain2 button {
+    position: absolute;
+    left: 45.5vw;
+    top: 32.5rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  .sites #sites_item1 .contain2:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  .sites #sites_item1 .c3 {
+    height: 19rem;
+    width: 23vw;
+    border-radius: 9px;
+  }
+  .sites #sites_item1 .contain3 {
+    background-size: cover;
+  }
+  .sites #sites_item1 .contain3 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    position: absolute;
+    top: 18.6rem;
+    left: 62.7vw;
+    font-weight: 600;
+    width: 33vw;
+  }
+  .sites #sites_item1 .contain3 p {
+    position: absolute;
+    left: 71vw;
+    top: 23.5rem;
+    font-size: 18px;
+    text-align: center;
+    width: 18vw;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .sites #sites_item1 .contain3 button {
+    position: absolute;
+    left: 76vw;
+    top: 32rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  .sites #sites_item1 .contain3:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  .sites #sites_item2 {
+    position: absolute;
+    top: 63rem;
+    left: 6rem;
+  }
+  .sites #sites_item2 div {
+    height: 38rem;
+    width: 23vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 4rem;
+    border-radius: 9px;
+    box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+  }
+  .sites #sites_item2 .contain_4 {
+    background-size: cover;
+    margin-left: 5.5rem;
+  }
+  .sites #sites_item2 .contain_4 img {
+    height: 19rem;
+    width: 23vw;
+    border-radius: 9px;
+  }
+  .sites #sites_item2 .contain_4 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 19px;
+    position: absolute;
+    top: 18.2rem;
+    left: 2vw;
+    font-weight: 600;
+    width: 27vw;
+  }
+  .sites #sites_item2 .contain_4 p {
+    position: absolute;
+    left: 5.5vw;
+    top: 23.4rem;
+    font-size: 18px;
+    text-align: center;
+    width: 20vw;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .sites #sites_item2 .contain_4 button {
+    position: absolute;
+    left: 11.5vw;
+    top: 32.6rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  .sites #sites_item2 .contain_4:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .guestBOOK {
+    position: absolute;
+    top: 310rem;
+    width: 100%;
+    height: 46rem;
+  }
+  .guestBOOK h3 {
+    color: rgb(209, 118, 6);
+    width: 30vw;
+    font-weight: bolder;
+    font-family: "coneria_script_demoregular";
+    font-size: 27.6px;
+    position: absolute;
+    left: 44%;
+    font-weight: 0;
+  }
+  .guestBOOK h1 {
+    top: 5rem;
+    color: rgb(48, 46, 46);
+    font-family: "yeseva_oneregular";
+    font-size: 38.5px;
+    position: absolute;
+    left: 34%;
+    font-weight: 0;
+    width: 40vw;
+  }
+  .guestBOOK .container_avis {
+    position: absolute;
+    top: 22rem;
+    left: 14vw;
+    width: 70%;
+    height: 35rem;
+    border-radius: 6px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.754);
+  }
+  .guestBOOK .container_avis #inner {
+    width: 100%;
+    position: absolute;
+    top: 0rem;
+    height: 35rem;
+  }
+  .guestBOOK .container_avis #inner h1 {
+    font-size: 20px;
+    color: rgb(44, 143, 4);
+    font-size: 34px;
+    margin-left: -11vw;
+    font-family: "coneria_script_demoregular";
+    font-weight: 800;
+  }
+  .guestBOOK .container_avis #inner h3 {
+    font-size: 17px;
+    width: 55vw;
+    margin-left: -19vw;
+    margin-top: 17.4rem;
+    font-weight: -1000;
+    color: rgba(48, 47, 47, 0.8509803922);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .guestBOOK .container_avis #contain {
+    width: 30rem;
+    height: 35rem;
+    position: absolute;
+    top: 45rem;
+  }
+  .guestBOOK .container_avis .back {
+    width: 101%;
+    height: 35rem;
+    background-color: rgb(229, 225, 225);
+    border-radius: 6px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.754);
+  }
+  .guestBOOK #prev {
+    position: relative;
+    top: 17rem;
+    left: 2vw;
+  }
+  .guestBOOK #next {
+    position: relative;
+    top: 17rem;
+    right: -67vw;
+  }
+  .guestBOOK .parallax {
+    width: 100%;
+    height: 65rem;
+    background-image: url(./../pictures/parallax.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    position: relative;
+    top: 77rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 40.6rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: relative;
+    top: 7rem;
+    left: 40%;
+  }
+  .footer_contact h1 {
+    font-size: 36px;
+    color: #ffffff;
+    position: absolute;
+    top: -3rem;
+    left: 2vw;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 5rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 20px;
+    position: absolute;
+    top: 8rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 22px;
+    position: absolute;
+    top: 11.1rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  div.icones img:nth-last-child(1) {
+    position: absolute;
+    top: 20rem;
+    left: 0rem;
+  }
+  .img_fb {
+    position: absolute;
+    top: 0rem;
+    left: 7rem;
+  }
+  div.icones img:nth-last-child(3) {
+    position: absolute;
+    top: 20rem;
+    left: 14rem;
+  }
+  .icones {
+    position: relative;
+    top: -1rem;
+    left: 3rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 17rem;
+    left: 7.2rem;
+    width: 2.6cm;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .footCopright center {
+    position: absolute;
+    top: 34.4rem;
+    width: 100%;
+    height: 1.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 20px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+  .up img {
+    width: 52px;
+    height: 52px;
+    position: fixed;
+    top: 54rem;
+    right: 3vw;
+    z-index: 20;
+  }
+}
+@media screen and (min-width: 764px) and (max-width: 1024px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    z-index: 20;
+    background-color: #ffffff;
+  }
+  header ul {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 33vw;
+    align-items: center;
+    justify-content: center;
+    top: 1rem;
+    padding-bottom: 12.5cm;
+  }
+  header ul li {
+    margin: 23px;
+  }
+  header ul li a {
+    font-size: 23px;
+    padding: 6px;
+    color: #1d1a1a;
+  }
+  .logo {
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 3cm;
+    height: 1.5cm;
+    z-index: 30;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-150rem);
+    width: 100%;
+    height: 43rem;
+    background-color: #1ed661;
+    z-index: 4;
+    transition: 0.6s;
+  }
+  .versionAng {
+    margin-left: 3rem;
+    font-size: 19px;
+    color: rgb(64, 56, 56);
+  }
+  .imgAng {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    width: 30px;
+    border-radius: 40%;
+    height: 30px;
+  }
+  .imgAng .fenetreFrancais {
+    position: relative;
+    float: right;
+    z-index: 4;
+    display: none;
+    transform: translateY(-4.5cm);
+  }
+  .imgAng p {
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+    color: rgb(45, 45, 45);
+  }
+  .show {
+    transform: translateY(0);
+    transition: 0.14s;
+  }
+  #ang {
+    cursor: pointer;
+  }
+  .logoBurger i {
+    font-size: 30px;
+    position: relative;
+    float: right;
+    justify-content: space-between;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    margin-right: 3rem;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .container {
+    display: none;
+  }
+  .container_responsive {
+    width: 100%;
+    height: 51rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 0rem;
+    display: inline-block;
+  }
+  #inner {
+    width: 100%;
+    height: 51rem;
+  }
+  #inner img {
+    width: 100%;
+    height: 51rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+  }
+  #Carousel {
+    width: 100%;
+    height: 51rem;
+    position: relative;
+    left: 0rem;
+    top: 2.5rem;
+  }
+  #lemurs {
+    font-size: 32px;
+    position: absolute;
+    left: 0;
+    top: -10rem;
+  }
+  .baobab {
+    font-size: 32px;
+    position: absolute;
+    left: 0;
+    top: -10rem;
+  }
+  #cameleon {
+    font-size: 32px;
+    position: absolute;
+    left: 2.5vw;
+    top: -10rem;
+  }
+  #tsingy {
+    font-size: 32px;
+    position: absolute;
+    left: 1rem;
+    top: -10rem;
+  }
+  .about {
+    position: absolute;
+    top: 57rem;
+    width: 100%;
+    height: 120rem;
+  }
+  .about h1 {
+    font-size: 29.5px;
+    position: absolute;
+    left: 38.5vw;
+    width: 4cm;
+    top: 1rem;
+  }
+  .about img {
+    width: 69vw;
+    height: 13cm;
+    position: absolute;
+    top: 50rem;
+    left: 15vw;
+    border-radius: 4px;
+  }
+  .about_container {
+    width: 100%;
+    position: absolute;
+  }
+  .about_container span {
+    font-size: 20px;
+    position: absolute;
+    width: 97%;
+    top: -10rem;
+    left: 9rem;
+  }
+  .border {
+    position: absolute;
+    left: 43.6vw;
+    top: 7.9rem;
+    height: 5.2px;
+    width: 1.4cm;
+  }
+  .choice {
+    position: absolute;
+    top: 161rem;
+    height: 92rem;
+  }
+  .choice h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 30vw;
+  }
+  .border2 {
+    position: absolute;
+    left: 45vw;
+    top: 10rem;
+    text-align: center;
+    width: 1.7cm;
+    height: 6px;
+  }
+  .galerie_1 img {
+    width: 33vw;
+    height: 5.8cm;
+  }
+  .galerie_1 .item_2 {
+    width: 60vw;
+  }
+  .galerie_1 .item_2 span {
+    font-size: 17.7px;
+    position: absolute;
+    left: 37vw;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .galerie_1 .item_2 span span {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+  }
+  .galerie_1 .item_3 {
+    position: absolute;
+    right: 0;
+  }
+  .galerie_2 img {
+    width: 34vw;
+    height: 5.8cm;
+  }
+  .galerie_2 {
+    display: flex;
+    position: relative;
+    top: 19rem;
+  }
+  .galerie_2 .item_2 {
+    position: absolute;
+    left: 33vw;
+  }
+  .galerie_2 .item_1 span {
+    font-size: 17.7px;
+    position: absolute;
+    left: 4rem;
+    top: 9.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .galerie_2 .item_3 {
+    position: absolute;
+    left: 75vw;
+  }
+  .galerie_2 .item_1 {
+    width: 12cm;
+  }
+  .galerie_2 .item_3 {
+    width: 20vw;
+  }
+  .galerie_2 .item_3 span {
+    font-size: 17.7px;
+    position: absolute;
+    left: -2.5rem;
+    top: 8.7rem;
+    color: rgb(45, 45, 45);
+  }
+  .galerie_2 .item_3 span span {
+    position: absolute;
+    top: 3rem;
+    left: 4rem;
+  }
+  .galerie_3 {
+    display: flex;
+    position: relative;
+    top: 41rem;
+  }
+  .galerie_3 img {
+    width: 32.6vw;
+    height: 5.8cm;
+  }
+  .galerie_3 .item_3 img {
+    left: 34.5vw;
+    top: 0rem;
+  }
+  .galerie_3 .item_2 {
+    width: 74vw;
+    position: absolute;
+    top: 0rem;
+    left: 0vw;
+  }
+  .galerie_3 .item_2 span {
+    font-size: 17.7px;
+    position: absolute;
+    left: 36vw;
+    top: 9.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .galerie_3 .item_2 span span {
+    position: absolute;
+    top: 3rem;
+    left: 9vw;
+  }
+  .sites {
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    top: 258rem;
+  }
+  /* fin choix */
+  /* debut tour */
+  .sites h1 {
+    text-align: center;
+    width: 95vw;
+    font-size: 24px;
+    position: absolute;
+    left: 2%;
+    font-weight: 600;
+  }
+  .border3 {
+    width: 1.7cm;
+    height: 8px;
+    background-color: #1ed661;
+    position: absolute;
+    left: 43vw;
+    top: 10.6rem;
+  }
+  #sites_item1 {
+    position: relative;
+    display: flex;
+    top: 23rem;
+    left: -7rem;
+    text-align: center;
+  }
+  #sites_item1 .item_1 {
+    background-image: url(circuits/pictures/fond.JPG);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 10cm;
+    position: absolute;
+    left: 9rem;
+    border-radius: 4px;
+  }
+  .i1 {
+    padding-left: 0rem;
+    height: 12.3rem;
+    color: #312e2e;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .i1 p {
+    width: 50vw;
+    position: absolute;
+    top: 8rem;
+    color: #b88806;
+    left: -7vw;
+  }
+  #sites_item1 .item_1:hover {
+    transform: translateY(-36px);
+  }
+  #sites_item1 .item_2 {
+    background-image: url(pictures/EST1.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 10cm;
+    position: absolute;
+    top: 0rem;
+    left: 63vw;
+    border-radius: 4px;
+  }
+  .i2 {
+    padding-left: 0rem;
+    height: 12.3rem;
+    color: #312e2e;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .i2 p {
+    width: 50vw;
+    position: absolute;
+    top: 8rem;
+    color: #b88806;
+    left: -6vw;
+  }
+  #sites_item1 .item_2:hover {
+    transform: translateY(-36px);
+  }
+  #sites_item1 .item_3 {
+    background-image: url(pictures/fosa.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 10cm;
+    position: absolute;
+    top: 49rem;
+    left: 9rem;
+    border-radius: 4px;
+  }
+  #sites_item1 .item_3:hover {
+    transform: translateY(-36px);
+  }
+  .i3 {
+    padding-left: 0rem;
+    height: 12.3rem;
+    color: #312e2e;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .i3 p {
+    width: 70vw;
+    position: absolute;
+    top: 8rem;
+    color: #b88806;
+    left: -15.4vw;
+  }
+  #sites_item2 {
+    position: relative;
+    display: flex;
+    top: 85rem;
+    left: -7rem;
+  }
+  #sites_item2 .item_1 {
+    background-image: url(circuits/pictures/couvertureNord-responsive.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 10cm;
+    position: absolute;
+    top: -13rem;
+    left: 49rem;
+    border-radius: 4px;
+  }
+  .i4 {
+    padding-left: 0rem;
+    height: 12.3rem;
+    color: #312e2e;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .i4 p {
+    width: 70vw;
+    position: absolute;
+    top: 8rem;
+    color: #b88806;
+    left: -15.4vw;
+  }
+  #sites_item2 .item_2 {
+    background-image: url(logo/tsingyBemaraha.jpeg);
+    width: 7.6cm;
+    height: 10cm;
+    position: absolute;
+    left: 54rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+  }
+  #sites_item2 .item_3 {
+    background-image: url(pictures/sifaka.jpg);
+    width: 7.6cm;
+    height: 10cm;
+    position: absolute;
+    left: 95rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+  }
+  footer {
+    position: absolute;
+    top: 386rem;
+    height: 39.4rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: relative;
+    top: 5rem;
+    left: 35%;
+  }
+  .footCopright {
+    position: absolute;
+    top: 39.3rem;
+    height: 2.6cm;
+  }
+}
+@media screen and (min-width: 764px) and (max-width: 1024px) and (min-width: 820px) and (max-width: 1024px) {
+  .galerie_1 .item_2 {
+    position: absolute;
+    left: 2vw;
+  }
+  .galerie_3 .item_2 {
+    position: absolute;
+    left: 2vw;
+  }
+}
+* {
+  color: #e7e7e7;
+}
+
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2.2cm;
+    z-index: 20;
+    background-color: #ffffff;
+  }
+  header ul {
+    display: none;
+    z-index: 4;
+    position: absolute;
+    left: 17vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: -15rem;
+    padding-bottom: 12.5cm;
+  }
+  header ul li {
+    margin: 14px;
+  }
+  header ul li a {
+    font-size: 23px;
+    padding: 6px;
+    color: #1d1a1a;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  header ul li .active {
+    color: white;
+    background-color: #04AA6D;
+    border: opx solid;
+    border-width: 20px;
+    padding-right: 25px;
+    border-radius: 5px;
+    padding-left: 25px;
+    text-decoration: none;
+  }
+  .logo {
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 3.2cm;
+    height: 1.5cm;
+    z-index: 30;
+  }
+  .header {
+    position: absolute;
+    top: 8.2rem;
+    width: 100%;
+    height: 0rem;
+    background-color: #1ed661;
+    z-index: 4;
+    transition: 0.6s;
+  }
+  .versionAng {
+    margin-left: 3rem;
+    font-size: 19px;
+    color: rgb(64, 56, 56);
+  }
+  .imgAng {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    width: 30px;
+    border-radius: 40%;
+    height: 30px;
+  }
+  .imgAng .fenetreFrancais {
+    position: relative;
+    float: right;
+    z-index: 4;
+    display: none;
+    transform: translateY(-4.5cm);
+  }
+  .imgAng p {
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+    color: rgb(45, 45, 45);
+  }
+  .show {
+    transform: translateY(0);
+    transition: 0.14s;
+  }
+  #ang {
+    cursor: pointer;
+  }
+  .logoBurger i {
+    font-size: 26px;
+    position: relative;
+    float: right;
+    justify-content: space-between;
+    top: 2.2rem;
+    border-radius: 20%;
+    padding: 6px;
+    margin-right: 3rem;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transition: 0.4s;
+    height: 37rem;
+  }
+  .hideshow2 {
+    display: block;
+    position: absolute;
+    top: 1rem;
+  }
+  .container {
+    display: none;
+  }
+  .container_responsive {
+    width: 100%;
+    height: 51rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 0rem;
+    display: inline-block;
+  }
+  #inner {
+    width: 100%;
+    height: 51rem;
+  }
+  #inner button {
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(8, 158, 63);
+    font-size: 18px;
+    color: white;
+    border: 0;
+    border-radius: 9px;
+    position: absolute;
+    top: -9rem;
+    left: 13.8vw;
+    transform: translate(27%, 50%);
+    box-shadow: -4px 4px 18px rgb(0, 0, 0);
+  }
+  #inner h1 {
+    position: absolute;
+    top: -21rem;
+    left: -5vw;
+    font-size: 27.3px;
+    width: 80vw;
+    font-family: "yeseva_oneregular";
+  }
+  #inner h3 {
+    color: rgb(209, 118, 6);
+    position: absolute;
+    top: -25rem;
+    font-weight: 1000;
+    left: 14%;
+    font-size: 23.3px;
+    font-family: "coneria_script_demoregular";
+  }
+  #inner img {
+    width: 100%;
+    height: 51rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+  }
+  #Carousel {
+    width: 100%;
+    height: 51rem;
+    position: relative;
+    left: 0rem;
+    top: 2.5rem;
+  }
+  #lemurs {
+    font-size: 21px;
+    position: absolute;
+    left: 0;
+    top: -10rem;
+  }
+  .baobab {
+    font-size: 21px;
+    position: absolute;
+    left: 0;
+    top: -10rem;
+  }
+  #cameleon {
+    font-size: 21px;
+    position: absolute;
+    left: 2.5rem;
+    top: -10rem;
+  }
+  #tsingy {
+    font-size: 21px;
+    position: absolute;
+    left: 1rem;
+    top: -10rem;
+  }
+  .about {
+    position: absolute;
+    top: 58.9rem;
+    width: 100%;
+    height: 97rem;
+  }
+  .about h1 {
+    font-size: 29.5px;
+    position: absolute;
+    left: 30.5vw;
+    width: 4cm;
+    top: 6rem;
+  }
+  .about .title_about {
+    position: absolute;
+    color: rgb(209, 118, 6);
+    top: 2.9rem;
+    left: 33%;
+    font-size: 20.3px;
+    font-family: "coneria_script_demoregular";
+  }
+  .about img {
+    width: 85vw;
+    height: 8cm;
+    position: absolute;
+    top: 66rem;
+    left: 2.5rem;
+    border-radius: 4px;
+    margin-top: 5rem;
+  }
+  .about_container {
+    width: 100%;
+    position: absolute;
+  }
+  .about_container span {
+    font-size: 15px;
+    position: absolute;
+    width: 90%;
+    top: -6rem;
+    left: 5rem;
+  }
+  .border {
+    position: absolute;
+    left: 39.2vw;
+    top: 7.9rem;
+    height: 5.2px;
+    width: 1.4cm;
+  }
+  .choice {
+    width: 100%;
+    height: 190vh;
+    position: absolute;
+    top: 161rem;
+    left: 0;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  .choice h3 {
+    color: rgb(209, 118, 6);
+    font-family: "coneria_script_demoregular";
+    font-size: 20.5px;
+    position: absolute;
+    top: 0;
+    left: 36%;
+    font-weight: 1000;
+    width: 30vw;
+  }
+  .choice h1 {
+    top: 4rem;
+    width: 60vw;
+    font-family: "yeseva_oneregular";
+    font-size: 23px;
+    position: absolute;
+    left: 8vw;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.829);
+    width: 85vw;
+  }
+  .images_choice {
+    position: absolute;
+    display: block;
+    top: 16rem;
+    left: 10vw;
+  }
+  .images_choice img {
+    width: 80vw;
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.684);
+    margin-top: 4rem;
+    height: 30rem;
+    border-radius: 6px;
+  }
+  .images_choice img:nth-last-child(2) {
+    position: relative;
+    top: 0rem;
+  }
+  .images_choice img:nth-last-child(1) {
+    position: relative;
+    top: 0rem;
+  }
+  .reason {
+    position: relative;
+    top: 79rem;
+    left: 45vw;
+    width: 50vw;
+    display: block;
+  }
+  .reason h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width: 60vw;
+    margin-top: 5rem;
+    margin-left: -35vw;
+    color: rgba(0, 0, 0, 0.647);
+    font-size: 24px;
+    position: absolute;
+    left: 23;
+    font-weight: bolder;
+  }
+  .reason .item {
+    position: absolute;
+    top: 1.2rem;
+  }
+  .reason .item div {
+    background-color: rgb(209, 118, 6);
+    margin-top: 19.9rem;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    margin-left: -35vw;
+  }
+  .reason .item div h1 {
+    font-size: 21px;
+    position: relative;
+    left: 47vw;
+    top: 0rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .reason .item div p {
+    width: 65vw;
+    margin-left: -4.2vw;
+    font-size: 16px;
+    position: absolute;
+    left: -18.2vw;
+    top: 15rem;
+    color: rgb(45, 45, 45);
+  }
+  .reason .item div .p_item_1 {
+    position: absolute;
+    top: 25.9rem;
+  }
+  .reason .item div .p_item_2 {
+    position: absolute;
+    top: 48.4rem;
+  }
+  .sites {
+    width: 100%;
+    height: 190rem;
+    position: absolute;
+    top: 307rem;
+    background-color: #ffffff;
+  }
+  .sites h3 {
+    color: rgb(209, 118, 6);
+    width: 50vw;
+    font-weight: bolder;
+    font-family: "coneria_script_demoregular";
+    font-size: 23.3px;
+    position: absolute;
+    left: 30vw;
+    font-weight: 0;
+  }
+  .sites h1 center {
+    top: 8rem;
+    color: rgb(48, 46, 46);
+    font-family: "yeseva_oneregular";
+    font-size: 25.5px;
+    position: absolute;
+    left: 5vw;
+    font-weight: 0;
+    width: 90vw;
+  }
+  .sites #sites_item1 {
+    display: block;
+    position: absolute;
+    top: 17rem;
+    left: 12vw;
+    text-align: center;
+  }
+  .sites #sites_item1 div {
+    height: 35rem;
+    width: 78vw;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5.5rem;
+    border-radius: 9px;
+    box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+  }
+  .sites #sites_item1 img {
+    height: 17.9rem;
+    width: 78vw;
+    border-radius: 9px;
+  }
+  .sites #sites_item1 .contain1 {
+    background-size: cover;
+  }
+  .sites #sites_item1 .contain1 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    position: absolute;
+    top: 22.6rem;
+    left: -4vw;
+    font-weight: 600;
+    width: 85vw;
+  }
+  .sites #sites_item1 .contain1 p {
+    position: absolute;
+    left: 7vw;
+    top: 26.9rem;
+    font-size: 18px;
+    text-align: center;
+    width: 62vw;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .sites #sites_item1 .contain1 button {
+    position: absolute;
+    left: 27vw;
+    top: 35rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  .sites #sites_item1 .contain1:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  .sites #sites_item1 .contain2 {
+    background-size: 100%;
+  }
+  .sites #sites_item1 .contain2 h1 {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 19px;
+    position: absolute;
+    top: 63rem;
+    left: 4.5vw;
+    font-weight: 600;
+    width: 65vw;
+  }
+  .sites #sites_item1 .contain2 p {
+    color: #000;
+    position: absolute;
+    left: 7vw;
+    top: 67.8rem;
+    font-size: 18px;
+    text-align: center;
+    width: 62vw;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .sites #sites_item1 .contain2 button {
+    position: absolute;
+    left: 25vw;
+    top: 76rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  .sites #sites_item1 .contain2:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  .sites #sites_item1 .c3 {
+    height: 17.9rem;
+    width: 78vw;
+    border-radius: 9px;
+  }
+  .sites #sites_item1 .contain3 {
+    background-size: cover;
+  }
+  .sites #sites_item1 .contain3 h1 {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 19px;
+    position: absolute;
+    top: 104rem;
+    left: 4.5vw;
+    font-weight: 600;
+    width: 65vw;
+  }
+  .sites #sites_item1 .contain3 p {
+    color: #000;
+    position: absolute;
+    left: 7vw;
+    top: 108.8rem;
+    font-size: 18px;
+    text-align: center;
+    width: 62vw;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .sites #sites_item1 .contain3 button {
+    position: absolute;
+    left: 25vw;
+    top: 116.9rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  .sites #sites_item1 .contain3:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  .sites #sites_item2 {
+    display: flex;
+    position: absolute;
+    top: 144rem;
+    left: -14.3vw;
+  }
+  .sites #sites_item2 div {
+    height: 35rem;
+    width: 78vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 4rem;
+    border-radius: 9px;
+    box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+  }
+  .sites #sites_item2 .contain_4 {
+    background-size: cover;
+    margin-left: 25.5vw;
+  }
+  .sites #sites_item2 .contain_4 img {
+    height: 19.5rem;
+    width: 78vw;
+    border-radius: 9px;
+  }
+  .sites #sites_item2 .contain_4 h1 {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 19px;
+    position: absolute;
+    top: 19rem;
+    left: 31vw;
+    font-weight: 600;
+    width: 65vw;
+  }
+  .sites #sites_item2 .contain_4 p {
+    color: #000;
+    position: absolute;
+    left: 31vw;
+    top: 23.2rem;
+    font-size: 18px;
+    text-align: center;
+    width: 63vw;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .sites #sites_item2 .contain_4 button {
+    position: absolute;
+    left: 53vw;
+    top: 30.1rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  .sites #sites_item2 .contain_4:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  .guestBOOK {
+    position: absolute;
+    top: 490rem;
+    width: 100%;
+    height: 46rem;
+  }
+  .guestBOOK h3 {
+    color: rgb(209, 118, 6);
+    width: 30vw;
+    font-weight: bolder;
+    font-family: "coneria_script_demoregular";
+    font-size: 23.6px;
+    position: absolute;
+    left: 37vw;
+    font-weight: 0;
+  }
+  .guestBOOK h1 {
+    top: 5rem;
+    color: rgb(48, 46, 46);
+    font-family: "yeseva_oneregular";
+    font-size: 27.5px;
+    position: absolute;
+    left: 8vw;
+    font-weight: -2rem;
+    width: 86vw;
+  }
+  .guestBOOK .container_avis {
+    position: absolute;
+    top: 19rem;
+    left: 4vw;
+    width: 93%;
+    height: 35rem;
+    border-radius: 6px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.754);
+  }
+  .guestBOOK .container_avis #inner {
+    width: 100%;
+    position: absolute;
+    top: 0rem;
+    height: 35rem;
+  }
+  .guestBOOK .container_avis #inner h1 {
+    font-size: 17px;
+    color: rgb(44, 143, 4);
+    font-size: 34px;
+    margin-left: -5vw;
+    margin-top: -6rem;
+    font-family: "coneria_script_demoregular";
+    font-weight: 800;
+  }
+  .guestBOOK .container_avis #inner h3 {
+    font-size: 16px;
+    width: 80vw;
+    margin-left: -19vw;
+    margin-top: 3.4rem;
+    font-weight: -1000;
+    color: rgba(48, 47, 47, 0.8509803922);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .guestBOOK .container_avis #contain {
+    width: 30rem;
+    height: 35rem;
+    position: absolute;
+    top: 45rem;
+  }
+  .guestBOOK .container_avis .back {
+    width: 101%;
+    height: 35rem;
+    background-color: rgb(229, 225, 225);
+    border-radius: 6px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.754);
+  }
+  .guestBOOK #prev {
+    position: relative;
+    top: 17rem;
+    left: 2vw;
+  }
+  .guestBOOK #next {
+    position: relative;
+    top: 17rem;
+    right: -67vw;
+  }
+  .guestBOOK .parallax {
+    width: 100%;
+    height: 65rem;
+    background-image: url(./../pictures/parallax.jpg);
+  }
+  footer {
+    position: relative;
+    top: 77rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 34.4rem;
+  }
+  .footer_contact {
+    position: absolute;
+    top: 7rem;
+    left: 40%;
+  }
+  .footer_contact h1 {
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: -3rem;
+    left: -13.5vw;
+    width: 55vw;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 5rem;
+    left: -31vw;
+    color: #ffffff;
+    width: 90vw;
+  }
+  .phone {
+    font-size: 20px;
+    position: absolute;
+    top: 8rem;
+    width: 90vw;
+    left: -31vw;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 19px;
+    position: absolute;
+    top: 11.1rem;
+    left: -31vw;
+    width: 93vw;
+    color: #ffffff;
+  }
+  div.icones img:nth-last-child(1) {
+    position: absolute;
+    top: 20rem;
+    left: 0rem;
+  }
+  .img_fb {
+    position: absolute;
+    top: 0rem;
+    left: 7rem;
+  }
+  div.icones img:nth-last-child(3) {
+    position: absolute;
+    top: 20rem;
+    left: 14rem;
+  }
+  .icones {
+    position: relative;
+    top: 0rem;
+    left: -16vw;
+  }
+  .border_ {
+    position: absolute;
+    top: 17rem;
+    left: -6.4vw;
+    width: 2.6cm;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .footCopright center {
+    position: absolute;
+    top: 34.4rem;
+    width: 100%;
+    height: 2.3cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 20px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+  .up img {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    top: 68rem;
+    right: 7vw;
+    z-index: 20;
+  }
+  .up img :hover {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 763px) and (max-width: 530px) and (min-width: 320px) {
+  .about img {
+    top: 59rem;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 763px) and (max-width: 412px) {
+  .i1 p {
+    position: absolute;
+    top: 7rem;
+  }
+  .i2 p {
+    position: absolute;
+    top: 7rem;
+  }
+  .i3 p {
+    position: absolute;
+    top: 7rem;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 763px) and (min-width: 475px) and (max-width: 540px) {
+  .about h1 {
+    position: absolute;
+    left: 17.1rem;
+    text-align: center;
+  }
+  .border {
+    position: absolute;
+    left: 45vw;
+    top: 7.9rem;
+  }
+  .about img {
+    position: absolute;
+    top: 54rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
