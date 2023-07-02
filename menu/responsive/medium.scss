@@ -1,0 +1,577 @@
+@media screen and (min-width: 764px) and (max-width:1024px) {
+  header{
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    z-index: 20;
+    background-color: #ffffff;
+
+    ul{
+        display: block;
+        z-index: 4;
+        position: absolute;
+        left: 33vw;
+        align-items: center;
+        justify-content: center;
+        top: 1rem;
+        padding-bottom: 12.5cm;
+
+         li{
+            margin: 23px;
+             
+            a{
+              font-size: 23px;
+              padding: 6px;
+              color: #1d1a1a;
+            }
+            }
+        }
+    }
+    
+.logo{
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 3cm;
+    height: 1.5cm;
+    z-index: 30;
+}
+    
+     
+.header{
+    position :absolute;
+    top: 7.78rem;
+    transform: translateY(-150rem);
+    width: 100%;
+    height: 43rem;
+    background-color: #1ed661;
+    z-index: 4;
+    transition : 0.6s;
+    }
+      
+    .versionAng{
+        margin-left: 3rem;
+        font-size: 19px;
+        color: rgb(64, 56, 56);
+        }
+    
+    
+      .imgAng{
+      position: relative;
+      left :0rem;
+      top:0rem;
+      width:30px;
+      border-radius: 40%;
+      height: 30px;
+    
+      .fenetreFrancais{
+        position: relative;
+        float: right;
+        z-index: 4;
+        display: none;
+        transform: translateY(-4.5cm);
+       
+        }
+    
+       
+    
+            p{
+                cursor: pointer;
+                @include p(20px, 7rem, 2rem);
+                }
+    
+    }
+    
+        .show{
+          transform: translateY(0);
+          transition: 0.14s;
+        }
+    
+        
+        #ang{
+          cursor: pointer;
+        }
+    
+.logoBurger i{
+    font-size: 30px;
+    position: relative;
+    float: right; 
+    justify-content: space-between;
+    top:1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    margin-right: 3rem;
+    border: 1.5px solid black;
+    z-index: -4;
+    color:black;
+
+      &:hover{
+        border: 0px solid #1ed661;
+        background-color: #1ed640;
+      }
+      
+}
+    
+     
+.hideshow{
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+}
+
+
+.container{
+    display: none;
+    }
+    
+    .container_responsive{
+      width: 100%;
+    height: 51rem;
+    position: absolute;
+    top: 3.5rem;
+    left:0rem;
+    display: inline-block;
+    }
+    
+    
+    #inner{
+      width: 100%;
+    height: 51rem; 
+    }
+    
+    #inner img{
+      width: 100%;
+    height:51rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    }
+    
+    #Carousel{
+      width: 100%;
+    height:51rem;
+    position: relative;
+    left: 0rem;
+    top: 2.5rem;
+    }
+
+#lemurs{
+font-size: 32px;
+position: absolute;
+left: 0;
+top: -10rem;
+}
+   
+.baobab{
+font-size: 32px;
+position: absolute;
+left: 0;
+top: -10rem;
+
+}
+
+
+#cameleon{
+font-size: 32px;
+position: absolute;
+left: 2.5vw; 
+top: -10rem;
+}
+
+#tsingy{
+font-size: 32px;
+position: absolute;
+left: 1rem; 
+top: -10rem;
+}
+
+
+
+.about {
+    position: absolute;
+    top: 57rem;
+    width: 100%;
+    height: 120rem;
+
+        h1{
+            font-size: 29.5px;
+            position: absolute;
+            left: 38.5vw;
+            width :4cm;
+            top: 1rem;             
+          }
+
+        img{
+            @include div_img(69vw, 13cm, 15vw, 50rem);
+          }
+        }
+      
+.about_container{
+    width: 100%;
+    position: absolute;
+
+         span{
+            font-size: 20px;
+            position: absolute;
+            width: 97%;
+            top: -10rem;
+            left: 9rem;
+          }
+
+         
+}
+    
+    
+.border{
+    position: absolute;
+    left: 43.6vw;
+    top: 7.9rem;
+    height: 5.2px;
+    width: 1.4cm;
+}
+     
+
+
+    .choice{
+        position: absolute;
+        top: 161rem;
+        height: 92rem;
+        }
+        
+        
+        
+    .choice h1{
+        font-size: 23px;
+        position: absolute;
+        left: 30vw;
+    }
+        
+    .border2{
+        position: absolute;
+        left: 45vw;
+        top: 10rem;
+        text-align: center;
+        width: 1.7cm;
+        height: 6px;
+    }
+        
+    .galerie_1 img{
+      width: 33vw;
+      height: 5.8cm;
+      }
+
+      .galerie_1 .item_2{
+        width: 60vw;
+               span{
+                   @include p(17.7px, 37vw, 8rem);
+                  
+
+                    span{
+                      position: absolute;
+                      top: 3rem;
+                      left: 2rem;
+                    }
+               }
+      }
+    
+      .galerie_1 .item_3{
+               position: absolute;
+               right: 0;
+      }
+
+      .galerie_2 img{
+        width: 34vw;
+      height: 5.8cm;
+      }
+    
+      .galerie_2{
+      display: flex;
+      position: relative;
+      top: 19rem;
+      }
+    
+      .galerie_2 .item_2{
+      position: absolute;
+      left: 33vw;
+      }
+    
+      .galerie_2 .item_1 span{
+      @include p(17.7px, 4rem, 9.5rem);
+  }
+    
+      .galerie_2 .item_3{
+      position: absolute;
+      left: 75vw;
+      }
+    
+      .galerie_2 .item_1{
+        width: 12cm;
+      }
+    
+      .galerie_2 .item_3{
+         width: 20vw;
+  
+         span{
+          @include p(17.7px, -2.5rem, 8.7rem);
+
+           span{
+            position: absolute;
+            top: 3rem;
+            left: 4rem;
+           }
+      }
+        
+      }
+     
+      .galerie_3{
+      display: flex;
+      position: relative;
+      top: 41rem;
+      
+      }
+    
+      .galerie_3 img{
+        width: 32.6vw;
+        height: 5.8cm;
+      }
+    
+      .galerie_3 .item_3 img{
+      left: 34.5vw;
+      top: 0rem;
+      }
+    
+      .galerie_3 .item_2{
+      width: 74vw;
+      position: absolute;
+      top: 0rem;
+      left: 0vw;
+      span{
+          @include p(17.7px, 36vw, 9.5rem);
+            span{
+              position: absolute;
+              top: 3rem;
+              left: 9vw;
+            }
+      }
+         
+      }
+    
+        
+
+    .sites{
+        width:100%;
+        height:200vh;
+        position: absolute;
+        top: 258rem;
+      }
+      
+      
+        /* fin choix */
+      
+        /* debut tour */
+      // 
+      
+      
+      .sites h1{
+      text-align: center;
+      width : 95vw;
+      @include h1(24px, 600, 2%);
+      }
+
+      .border3{
+        width: 1.7cm;
+        height: 8px;
+        background-color: #1ed661;
+        position: absolute;
+        left: 43vw;
+        top: 10.6rem;
+        }
+        
+      #sites_item1{
+      position:relative;
+      display: flex;
+      top:23rem;
+      left: -7rem;
+      text-align: center;
+      }  
+      
+      #sites_item1 .item_1{
+       background-image: url(circuits/pictures/fond.JPG); 
+       text-align: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       @include div_image(40%, 10cm, 9rem);
+      }
+      
+      .i1{
+        padding-left: 0rem;
+        height: 12.3rem;
+        color: #312e2e;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+
+           p{
+            width: 50vw;
+        position: absolute;
+        top: 8rem;
+        color: #b88806;
+        left: -7vw;
+           }
+      }
+      
+      #sites_item1 .item_1:hover{
+        transform: translateY(-36px);
+      }
+      
+      #sites_item1 .item_2{
+        background-image: url(pictures/EST1.jpg); 
+       text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include div_img(40%, 10cm, 63vw , 0rem);
+       }
+      
+       .i2{
+        padding-left: 0rem;
+        height: 12.3rem;
+        color: #312e2e;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+
+        p{
+          width: 50vw;
+          position: absolute;
+          top: 8rem;
+          color: #b88806;
+          left: -6vw;
+         }
+      }
+      
+    
+      
+      
+       #sites_item1 .item_2:hover{
+        transform: translateY(-36px);
+      }
+      
+       #sites_item1 .item_3{
+        background-image: url(pictures/fosa.jpg); 
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include div_img(40%, 10cm, 9rem, 49rem);
+       }
+      
+      
+       #sites_item1 .item_3:hover{
+        transform: translateY(-36px);
+      }
+      .i3{
+        padding-left: 0rem;
+        height: 12.3rem;
+        color: #312e2e;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+
+        p{
+          width: 70vw;
+          position: absolute;
+          top: 8rem;
+          color: #b88806;
+          left: -15.4vw;
+         }
+      }
+      
+  
+      
+      
+       #sites_item2{
+        position:relative;
+        display: flex;
+        top:85rem;
+        left: -7rem;
+      
+        }  
+      
+        #sites_item2 .item_1{
+         background-image: url(circuits/pictures/couvertureNord-responsive.jpg); 
+         text-align: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         @include div_img(40%, 10cm, 49rem, -13rem);
+        }
+      
+
+        .i4{
+          padding-left: 0rem;
+          height: 12.3rem;
+          color: #312e2e;
+          border-bottom-left-radius: 6px;
+          border-bottom-right-radius: 6px;
+  
+          p{
+            width: 70vw;
+            position: absolute;
+            top: 8rem;
+            color: #b88806;
+            left: -15.4vw;
+           }
+        }
+        #sites_item2 .item_2{
+          background-image: url(logo/tsingyBemaraha.jpeg); 
+          width:7.6cm;
+          height: 10cm;
+          position: absolute;
+          left: 54rem;
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: none;
+         }
+      
+         #sites_item2 .item_3{
+          background-image: url(pictures/sifaka.jpg); 
+          width:7.6cm;
+          height: 10cm;
+          position: absolute;
+          left: 95rem;
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: none;
+         }
+      
+      
+footer{
+    position: absolute;
+    top: 386rem;
+    height: 39.4rem;
+
+}
+
+
+.footer_contact{
+   width: 45%;
+   position: relative;
+   top: 5rem;
+   left: 35%;
+}
+
+
+ .footCopright{
+  position: absolute;
+  top: 39.3rem;
+  height: 2.6cm;
+ }
+
+
+  @media screen and (min-width: 820px) and (max-width: 1024px) {
+    .galerie_1 .item_2{
+         position: absolute;
+         left: 2vw;
+    }
+
+    .galerie_3 .item_2{
+      position: absolute;
+      left: 2vw;
+    }
+  }
+
+}

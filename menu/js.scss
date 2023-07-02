@@ -1,0 +1,9 @@
+.hide_{
+    transform: translateX(-100rem);
+    transition: 3s;
+}
+
+.show_{
+    transform: translateX(0);
+    transition: 3s;
+}

@@ -1,0 +1,111 @@
+@media screen and (min-width: 1024px) {
+  
+
+.choice {
+    @include div(100%, 190vh, 0, 131rem, #ffffff);
+
+    h3{
+      color: $color-4;
+      position: absolute;
+      top: 0rem;
+      font-weight: 1000;
+      left: 46%;
+      width: 30vw;
+      font-size: 28.6px;
+      font-family: 'coneria_script_demoregular';
+    
+ }
+    }
+  
+    .choice h1{
+     top: 4rem;
+    font-family:'yeseva_oneregular';
+    @include h1(40px, 600, 20%);
+    color:rgba(0, 0, 0, 0.829);
+    // width: 76vw;
+    }
+  
+  .images_choice{
+        position: absolute;
+        display: flex;
+        top: 19rem;
+        left: 5%;
+
+           img{
+               width: 37%;
+               box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.684);
+               margin-left: 3rem;
+               height: 40rem;
+               border-radius: 6px;
+                   
+                 &:nth-last-child(2){
+                    position:relative;
+                    top: 2rem;
+                 }
+           }
+  }
+
+  .reason{
+         position:relative ;
+         top: 12rem;
+         left: 45%;
+       width: 50vw;
+       display: block;
+              h1{
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                   width: 30vw;
+                   margin-top: 5rem;
+                   color:rgba(0, 0, 0, 0.647);
+                   @include h1(35px, bolder, 23);
+                  }
+          .item{
+              position: absolute;
+              top: 14rem;
+
+                div{
+                    background-color: $color-4;
+                    margin-top: 8.9rem;
+                    width: 29px;
+                    border-radius: 50%;
+                    height: 29px;
+                    margin-left: 14rem;
+                    
+
+                       h1{
+                          font-size: 23px;
+                          position: relative;
+                          left: 7vw;
+                          top: 0rem;
+                          
+                          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                       }
+
+                       p{
+                        width: 35vw;
+                       
+                           @include p(16px,17.2vw , 12rem );
+                       }
+
+                       .p_item_1{
+                           position: absolute;
+                           top: 12rem;
+                       }
+
+                       .p_item_2{
+                        position: absolute;
+                        top: 23.7rem;
+                    }
+                
+                }
+
+                // .item_1{
+                //    background-image: url(./../p);
+                // }
+              }
+  }
+   
+  
+    
+       
+    
+}

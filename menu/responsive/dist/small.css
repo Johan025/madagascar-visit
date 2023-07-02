@@ -1,0 +1,7 @@
+@media screen and (min-width: 280px) and (max-width: 1023px) {
+  .logoBurger {
+    right: 8rem;
+    top: 0rem;
+    z-index: 4;
+  }
+}
