@@ -1294,7 +1294,7 @@ body {
     top: 27.7rem;
   }
   .sites {
-    width: 100%;
+    width: 90vw;
     height: 190rem;
     position: absolute;
     top: 265rem;
@@ -1326,9 +1326,10 @@ body {
   .sites #sites_item1 {
     display: flex;
     position: absolute;
-    top: 17rem;
-    left: 1.1vw;
-    text-align: center;
+    top: 0rem;
+    left: 0.1vw;
+    width: 100%;
+    height: 70rem;
   }
   .sites #sites_item1 div {
     height: 35rem;
@@ -1345,6 +1346,8 @@ body {
   }
   .sites #sites_item1 .contain1 {
     background-size: cover;
+    position: relative;
+    left: 45vw;
   }
   .sites #sites_item1 .contain1 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1352,15 +1355,15 @@ body {
     color: #000;
     font-size: 17px;
     position: absolute;
-    top: 17.6rem;
-    left: -0.6vw;
+    top: 18rem;
+    left: -4.6vw;
     font-weight: 600;
-    width: 55vw;
+    width: 45vw;
   }
   .sites #sites_item1 .contain1 p {
     position: absolute;
-    left: 12vw;
-    top: 22.2rem;
+    left: 2vw;
+    top: 22.4rem;
     font-size: 18px;
     text-align: center;
     width: 32vw;
@@ -1369,7 +1372,7 @@ body {
   }
   .sites #sites_item1 .contain1 button {
     position: absolute;
-    left: 22vw;
+    left: 12vw;
     top: 30rem;
     padding: 4px;
     background-color: rgb(215, 141, 3);
@@ -1382,6 +1385,7 @@ body {
   }
   .sites #sites_item1 .contain2 {
     background-size: 100%;
+    margin-left: 55vw;
   }
   .sites #sites_item1 .contain2 h1 {
     color: #000;
@@ -1389,16 +1393,16 @@ body {
     text-align: center;
     font-size: 19px;
     position: absolute;
-    top: 17.6rem;
-    left: 41.5vw;
+    top: 35.6rem;
+    left: 49.5vw;
     font-weight: 600;
-    width: 65vw;
+    width: 45vw;
   }
   .sites #sites_item1 .contain2 p {
     color: #000;
     position: absolute;
-    left: 57.5vw;
-    top: 22.3rem;
+    left: 56.5vw;
+    top: 40.1rem;
     font-size: 19px;
     text-align: center;
     width: 32vw;
@@ -1406,8 +1410,8 @@ body {
   }
   .sites #sites_item1 .contain2 button {
     position: absolute;
-    left: 68.4vw;
-    top: 30.5rem;
+    left: 67.4vw;
+    top: 48.5rem;
     padding: 4px;
     background-color: rgb(215, 141, 3);
     font-size: 19px;
@@ -1501,9 +1505,9 @@ body {
     font-size: 19px;
     position: absolute;
     top: 19rem;
-    left: 11vw;
+    left: 21vw;
     font-weight: 600;
-    width: 65vw;
+    width: 45vw;
   }
   .sites #sites_item2 .contain_4 p {
     color: #000;
@@ -1615,7 +1619,7 @@ body {
     height: 55rem;
     background-image: url(./../pictures/parallax.jpg);
   }
-  footer {
+  #footer {
     position: relative;
     top: 70rem;
     background-color: rgba(0, 0, 0, 0.705);
@@ -1632,7 +1636,7 @@ body {
     color: #ffffff;
     position: absolute;
     top: -3rem;
-    left: -21.5vw;
+    left: -19.5vw;
     width: 55vw;
   }
   .mail {
@@ -1701,8 +1705,8 @@ body {
     width: 45px;
     height: 45px;
     position: fixed;
-    top: 60rem;
-    right: 7vw;
+    top: 130rem;
+    right: 40vw;
     z-index: 20;
   }
   .up img :hover {
