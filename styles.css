@@ -1430,7 +1430,7 @@ body {
     background-size: cover;
     position: relative;
     top: 40rem;
-    left: -92vw;
+    left: -91vw;
   }
   .sites #sites_item1 .contain3 h1 {
     color: #000;
@@ -1478,8 +1478,8 @@ body {
   .sites #sites_item2 {
     display: flex;
     position: absolute;
-    top: 56.7rem;
-    left: 30.5vw;
+    top: 57.7rem;
+    left: 29vw;
   }
   .sites #sites_item2 div {
     height: 35rem;
