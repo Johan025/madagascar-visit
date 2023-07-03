@@ -1244,7 +1244,7 @@ body {
   .reason {
     position: relative;
     top: 56rem;
-    left: 17vw;
+    left: 15vw;
     width: 50vw;
     display: block;
   }
@@ -1273,7 +1273,7 @@ body {
   .reason .item div h1 {
     font-size: 23px;
     position: relative;
-    left: 7vw;
+    left: -2vw;
     top: 0rem;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
@@ -1281,7 +1281,7 @@ body {
     width: 55vw;
     font-size: 16px;
     position: absolute;
-    left: 17.2vw;
+    left: 13.2vw;
     top: 12rem;
     color: rgb(45, 45, 45);
   }
