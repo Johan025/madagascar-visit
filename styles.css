@@ -1705,8 +1705,8 @@ body {
     width: 45px;
     height: 45px;
     position: fixed;
-    top: 130rem;
-    right: 40vw;
+    top: 170rem;
+    right: 7vw;
     z-index: 20;
   }
   .up img :hover {
