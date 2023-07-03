@@ -16,7 +16,7 @@
         display: none;
         z-index: 4;
         position: absolute;
-        left: 15vw;
+        left: 38vw;
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -52,8 +52,8 @@
     position: fixed;
     top: 1.4rem;
     left: 2.4rem;
-    width: 3.2cm;
-    height: 1.5cm;
+    width: 4.7cm;
+    height: 1.7cm;
     z-index: 30;
 }
     
@@ -180,7 +180,7 @@
       border-radius: 9px;
       position: absolute;
       top: -12rem;
-      left: 17.4vw;
+      left: 19.4vw;
       transform: translate(27%, 50%);
       box-shadow: -4px 4px 18px rgb(0, 0, 0);;
 }
@@ -278,7 +278,7 @@ top: -10rem;
           
         }
         img{
-            @include div_img(55vw, 9.3cm, 20vw, 51rem);
+            @include div_img(55vw, 10.6cm, 20vw, 46rem);
             margin-top: 5rem;
           }
         }
@@ -355,7 +355,7 @@ top: -10rem;
 .reason{
      position:relative ;
      top: 56rem;
-     left: 17vw;
+     left: 15vw;
    width: 50vw;
    display: block;
           h1{
@@ -381,16 +381,15 @@ top: -10rem;
                    h1{
                       font-size: 23px;
                       position: relative;
-                      left: 7vw;
+                      left: -2vw;
                       top: 0rem;
-                      
                       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                    }
 
                    p{
                     width: 55vw;
                    
-                       @include p(16px,17.2vw , 12rem );
+                       @include p(16px,13.2vw , 12rem );
                    }
 
                    .p_item_1{
@@ -420,7 +419,7 @@ top: -10rem;
 
    
 .sites{
-width:100%;
+width:90vw;
 height:190rem;
 position: absolute;
 top: 265rem;
@@ -449,9 +448,10 @@ align-items: center;
     
     display: flex;
     position: absolute;
-    top: 17rem;
-    left: 1.1vw;
-   text-align: center;
+    top: 0rem;
+    left: 0.1vw;
+width: 100%;
+height: 70rem;
            
       div{
         height:35rem;
@@ -471,24 +471,24 @@ align-items: center;
   
      .contain1{
       background-size: cover;
-      
-
+     position: relative;
+     left: 45vw;
         h1{
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           text-align: center;
            color: #000;
-          @include h(17px, 17.6rem, -0.6vw, 600, 55vw);
+          @include h(17px, 18rem, -4.6vw, 600, 45vw);
         }
 
        p{
-       @include p_left(12vw, 22.2rem, 18px);
+       @include p_left(2vw, 22.4rem, 18px);
        width: 32vw;
        color: #000;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        }
 
        button{
-        @include button($color-3, 4px, 22vw, 30rem, 19px);
+        @include button($color-3, 4px, 12vw, 30rem, 19px);
      border-radius: 6px;
      border: 0 solid;
  
@@ -501,24 +501,24 @@ align-items: center;
 
      .contain2{
         background-size: 100%;
-     
+      margin-left: 55vw;
        
         h1{
           color: #000;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           text-align: center;
-          @include h(19px, 17.6rem, 41.5vw, 600, 65vw);
+          @include h(19px, 35.6rem, 49.5vw, 600, 45vw);
      }
 
      p{
       color: #000;
-      @include p_left(57.5vw, 22.3rem, 19px);
+      @include p_left(56.5vw,40.1rem, 19px);
       width: 32vw;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
 
    button{
-    @include button($color-3, 4px, 68.4vw, 30.5rem, 19px);
+    @include button($color-3, 4px, 67.4vw, 48.3rem, 19px);
  border-radius: 6px;
  border: 0 solid;
 
@@ -541,7 +541,7 @@ align-items: center;
       background-size: cover;
        position: relative;
        top: 40rem;
-       left: -92vw;
+       left: -91vw;
       h1{
         color: #000;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -562,7 +562,7 @@ align-items: center;
      }
 
      button{
-      @include button($color-3, 4px, 13vw,29.5rem, 19px);
+      @include button($color-3, 4px, 13vw,30.5rem, 19px);
    border-radius: 6px;
    border: 0 solid;
    text-align: center;
@@ -580,8 +580,8 @@ align-items: center;
      #sites_item2{
       display: flex;
       position: absolute;
-      top: 56.7rem;
-      left: 30.5vw;
+      top: 57.7rem;
+      left: 29vw;
      
 
       div{
@@ -608,7 +608,7 @@ align-items: center;
         color: #000;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
-        @include h(19px, 19rem, 11vw, 600, 65vw);
+        @include h(19px, 19rem, 21vw, 600, 45vw);
         }
 
         p{
@@ -640,6 +640,7 @@ align-items: center;
     top: 370rem;
     width: 100%;
     height: 30rem;
+    
 
      h3{
    color: $color-4;
@@ -737,12 +738,13 @@ align-items: center;
   }
 
   
-  footer{
+  #footer{
     position: relative;
     top: 70rem;
     background-color: rgba(0, 0, 0, 0.705);
     width :100%;
     height: 34.4rem;
+    
   }
   
   .footer_contact{
@@ -756,7 +758,7 @@ align-items: center;
         color: #ffffff;
         position: absolute;
         top: -3rem;
-        left: -21.5vw;
+        left: -19.5vw;
         width: 55vw;
       }
   }
@@ -812,13 +814,13 @@ align-items: center;
    .icones{
     position: relative;
     top: 0rem;
-    left: -6vw;
+    left: -0vw;
    }
   
    .border_{
     position: absolute;
     top: 17rem;
-    left: 0.4vw;
+    left: 3.4vw;
     width: 2.6cm;
     height: 4px;
     background-color: #ffffff;
@@ -835,10 +837,10 @@ align-items: center;
     color: rgb(212, 205, 205);
    }
    .up img{
-    width: 45px;
-    height: 45px;
+    width: 52px;
+    height: 52px;
     position: fixed;
-    top: 60rem;
+    top: 170rem;
     right: 7vw;
     z-index: 20;
 
