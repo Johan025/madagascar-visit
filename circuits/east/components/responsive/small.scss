@@ -255,9 +255,9 @@
     .east .desc{
         font-size: 18px;
         position: absolute;
-        left: 4.2rem;
+        left: 4.2vw;
         top: 92.5rem;
-        width: 82vw;
+        width: 89vw;
         color: #201f1f;
              b{
                 color: #0b077e;
@@ -272,11 +272,11 @@
 
    .east_day{
   position: absolute;
-  top: 175rem;
+  top: 164rem;
   left: 0rem;
 
   .titre_east{
-    @include h1(26.6px, 600, 14vw);
+    @include h1(24.6px, 600, 15.6vw);
     color: rgb(0, 0, 0);
     top: -14.5rem;
     width: 80vw;
@@ -498,11 +498,11 @@
 
     .east_day_pangalane{
       position: absolute;
-      top: 490rem;
+      top: 473rem;
       left: 0rem;
 
       .titre_east{
-        @include h1(17px, 600, 16vw);
+        @include h1(18px, 600, 16.6vw);
         color: rgb(0, 0, 0);
         top: -14.5rem;
         width: 80vw;
