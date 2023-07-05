@@ -1,0 +1,795 @@
+@media screen and (max-width: 764px) and (min-width: 280px) {
+@import "./../../../../settings.scss";
+@import url("_include-media.scss");
+
+   *{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+    .up img{
+        width: 80px;
+        height: 80px;
+        position: fixed;
+        top: 55rem;
+        right: 2rem;
+        z-index: 8;
+    
+    }
+
+    .texte{
+        font-size: 26px;
+        position: absolute;
+        left: 1rem;
+        top: 37rem;
+    }
+    
+    header{
+        position: fixed;
+        width: 100%;
+        height: 2.2cm;
+        z-index: 20;
+        background-color: #ffffff;
+
+        ul{
+            display: none;
+            z-index: 4;
+            position: absolute;
+            left: 16vw;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            top: -15rem;
+            padding-bottom: 14.5cm;
+
+             li{
+                margin: 17px;
+                 
+                a{
+                  font-size: 19px;
+                  padding: 6px;
+                  color: #1d1a1a;
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+                .active {
+                  color: white;
+                  background-color: #04AA6D;
+                  border: opx solid;
+                  border-width: 20px;
+                  padding-right: 25px;
+                  border-radius: 5px;
+                  padding-left: 25px;
+                  text-decoration: none;
+                  
+                  } 
+                }
+            }
+        }
+        
+    .logo{
+        position: fixed;
+        top: 1.4rem;
+        left: 2.4rem;
+        width: 3.2cm;
+        height: 1.5cm;
+        z-index: 30;
+    }
+        
+         
+    .header{
+        position :absolute;
+        top: 8.2rem;
+        // transform: translateY(-150rem);
+        width: 100%;
+        height: 0rem;
+        background-color: #1ed661;
+        z-index: 4;
+        transition : 0.6s;
+        }
+
+       
+    
+          
+        .versionAng{
+            margin-left: 3rem;
+            font-size: 19px;
+            color: rgb(64, 56, 56);
+            }
+        
+        
+          .imgAng{
+          position: relative;
+          left :0rem;
+          top:0rem;
+          width:30px;
+          border-radius: 40%;
+          height: 30px;
+        
+          .fenetreFrancais{
+            position: relative;
+            float: right;
+            z-index: 4;
+            display: none;
+            transform: translateY(-4.5cm);
+           
+            }
+        
+           
+        
+                p{
+                    cursor: pointer;
+                    @include p(20px, 7rem, 2rem);
+                    }
+        
+        }
+        
+            .show{
+              transform: translateY(0);
+              transition: 0.14s;
+            }
+        
+            
+            #ang{
+              cursor: pointer;
+            }
+        
+    .logoBurger i{
+        font-size: 26px;
+        position: relative;
+        float: right; 
+        //  right: -29rem;
+        justify-content: space-between;
+        top:2.2rem;
+        border-radius: 20%;
+        padding: 6px;
+        margin-right: -111.5vw;
+        border: 1.5px solid black;
+        z-index: 20;
+        color:black;
+
+          &:hover{
+            border: 0px solid #1ed661;
+            background-color: #1ed640;
+          }
+          
+    }
+        
+         
+    .hideshow_east{
+        // transform: translateY(-0.2rem);
+        transition: 0.4s;
+        height: 35rem;
+    }
+
+    .hideshow2{
+        display: block;
+        position: absolute;
+        top: -5rem;
+        left: 0vw;
+      
+    }
+
+    .couvertureEst img{
+        width: 100%;
+        left:0;
+        display: none;
+    }
+
+    .couvertureEst_responsive img{
+        width: 100%;
+        position: absolute;
+        left:0;
+        top: 48rem;
+        height: 40rem;
+        display: inline-block;
+    }
+
+    .detailTour{
+
+        h1{
+        color: rgb(212, 139, 3);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        @include h(30px, 17rem,19vw, bold, 60vw);
+        }
+ 
+        .details{
+             border-radius: 6px;
+             box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
+             background-color: rgb(223, 220, 215);
+             border: 1.5px solid rgb(212, 139, 3);
+             @include div-right(20rem, 90vw, 5vw, 25rem);
+ 
+                 .days{
+                      position: absolute;
+                      top: -15rem;
+                      left: -65vw;
+                        img{
+                          width: 52px;
+                          height: 52px; 
+                          position: absolute;
+                         left: 69vw;
+                         top: 17.6rem;
+                        }  
+ 
+                        h1{
+                           font-size: 23px;
+                           color: rgb(67, 66, 66);
+                           position: absolute;
+                           left:76vw;
+                           
+                        }
+                 }
+ 
+                 .localisation{
+                     position: absolute;
+                     top: 7rem;
+                     left: 0vw;
+                       img{
+                         width: 52px;
+                         height: 52px; 
+                         position: absolute;
+                        left: 67vw;
+                        top: 18rem;
+                       }  
+ 
+                       h1{
+                          font-size: 22px;
+                          position: absolute;
+                          left:77vw;
+                         width: 77vw;
+                          color: rgb(67, 66, 66);
+                       }
+                }
+        }
+ }
+
+    .title_east{
+        color: #002260;
+        @include h(36px, 10.5rem, 19vw, 800, 60vw);
+      
+        font-family: 'yeseva_oneregular';
+        text-align: center;
+    }
+
+    .east .desc{
+        font-size: 18px;
+        position: absolute;
+        left: 4.2rem;
+        top: 92.5rem;
+        width: 82vw;
+        color: #201f1f;
+             b{
+                color: #0b077e;
+
+             }
+    }
+
+    .galerieEst{
+        display: none;
+      }
+
+
+   .east_day{
+  position: absolute;
+  top: 175rem;
+  left: 0rem;
+
+  .titre_east{
+    @include h1(26.6px, 600, 14vw);
+    color: rgb(0, 0, 0);
+    top: -14.5rem;
+    width: 80vw;
+    position: absolute;
+   font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .anim_1{
+     @include div(32px, 32px, 5vw, -12.5rem,rgb(222, 167, 1) );
+       border-radius: 0;
+       animation: rotate 5s linear infinite;
+  }
+
+  @keyframes rotate {
+    0%{
+          transform: rotate(155deg);
+    }
+
+    20%{
+        transform: rotate(205deg);
+    }
+
+    40%{
+        transform: rotate(255deg);
+    }
+
+    60%{
+        transform: rotate(305deg);
+    }
+
+    80%{
+        transform: rotate(355deg);
+    }
+
+    100%{
+        transform: rotate(405deg);
+    }
+  }
+
+
+.day1{
+    @include div(87vw, 26rem, 6vw, 0rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(23px, 550, 17vw);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 2vw ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+         left: 1rem;
+     }
+}
+
+.day2{
+    @include div(87vw, 39rem, 6vw, 37rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(22px, 550, 12vw);
+        left: 10.5vw;
+        color: $color-2;
+        width: 60vw;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 1vw,  8.6rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+         left: 1rem;
+     }
+}
+
+.day3{
+    @include div(87vw, 35rem, 6vw, 89rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(23px, 550, 9vw);
+        width: 80vw;
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 2vw ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+         left: 1rem;
+     }
+}
+
+
+.day4{
+    @include div(87vw, 39.1rem, 6vw, 135.6rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(19px, 550, 10vw);
+        color: $color-2;
+        top: 1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 1vw,  9.7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 2.6rem;
+         left: 0.4rem;
+     }
+}
+
+.day5{
+
+    @include div(87vw, 17rem, 6vw, 185.5rem, rgba(102, 98, 98, 0.122));
+    h1{
+        @include h1(20px, 550, 17vw);
+        color: $color-2;
+        width: 60vw;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 1vw,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+         left: 1rem;
+     }
+}
+
+.day6-7-8{
+   
+    @include div(87vw, 13.6rem, 6vw, 214rem, rgba(102, 98, 98, 0.122));
+    h1{
+        @include h1(19.6px, 550, 13vw);
+        width: 50vw;
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 22vw ,  8rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+         left: 1rem;
+     }
+}
+
+.day9{
+    
+    @include div(87vw, 20.6rem, 6vw, 238.2rem, rgba(102, 98, 98, 0.122));
+    h1{
+        @include h1(20px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 1vw ,  8rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+         left: 1rem;
+     }
+}
+
+.day10{
+   
+    @include div(87vw, 16.6rem, 6vw, 269.5rem, rgba(102, 98, 98, 0.122));
+    h1{
+        @include h1(23px, 550, 17vw);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 1vw ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+         left: 1rem;
+     }
+}
+
+
+}   
+
+
+    .east_day_pangalane{
+      position: absolute;
+      top: 490rem;
+      left: 0rem;
+
+      .titre_east{
+        @include h1(17px, 600, 16vw);
+        color: rgb(0, 0, 0);
+        top: -14.5rem;
+        width: 80vw;
+        position: absolute;
+       font-family:  Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .anim_2{
+        @include div(30px, 30px, 5vw, -12.5rem,rgb(222, 167, 1) );
+          border-radius: 0;
+          animation: rotate 5s linear infinite;
+     }
+
+      @keyframes rotate2 {
+        0%{
+              transform: rotate(155deg);
+        }
+    
+        20%{
+            transform: rotate(205deg);
+        }
+    
+        40%{
+            transform: rotate(255deg);
+        }
+    
+        60%{
+            transform: rotate(305deg);
+        }
+    
+        80%{
+            transform: rotate(355deg);
+        }
+    
+        100%{
+            transform: rotate(405deg);
+        }
+      }
+    
+
+    
+             
+      .day1{
+        @include div(87vw, 26rem, 6vw, 0rem, rgba(102, 98, 98, 0.122));
+    
+        h1{
+            @include h1(23px, 550, 17vw);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 2vw ,  7rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+             left: 1rem;
+         }
+    }
+    
+    .day2{
+        @include div(87vw, 39rem, 6vw, 37rem, rgba(102, 98, 98, 0.122));
+    
+        h1{
+            @include h1(22px, 550, 12vw);
+            left: 11vw;
+            color: $color-2;
+            width: 60vw;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 1vw,  8.6rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+             left: 1rem;
+         }
+    }
+    
+    .day3{
+        @include div(87vw, 35rem, 6vw, 87rem, rgba(102, 98, 98, 0.122));
+    
+        h1{
+            @include h1(23px, 550, 8vw);
+            width: 80vw;
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 2vw ,  7rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+             left: 1rem;
+         }
+    }
+    
+    
+    .day4{
+        @include div(87vw, 39.1rem, 6vw, 133rem, rgba(102, 98, 98, 0.122));
+    
+        h1{
+            @include h1(18px, 550, 15.6vw);
+            color: $color-2;
+            width: 60vw;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 1vw,  10.5rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+             left: 1rem;
+         }
+    }
+    
+
+  .day5{
+    @include div(87vw, 44.5rem, 6vw, 184.5rem, rgba(102, 98, 98, 0.122));
+        h1{
+            @include h1(19px, 550, 13vw);
+            color: $color-2;
+            width: 60vw;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 1vw,  7.5rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+             left: 1rem;
+         }
+}
+
+.day6{
+    @include div(87vw, 24.9rem, 6vw, 242rem, rgba(102, 98, 98, 0.122));
+        h1{
+            @include h1(16px, 550, 10vw);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 1vw,  10.5rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+             left: 1rem;
+         }
+}
+
+.day7{
+    @include div(87vw, 20rem, 6vw, 279rem, rgba(102, 98, 98, 0.122));
+    h1{
+        @include h1(19px, 550, 16vw);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 1vw ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.3rem;
+         left: 1rem;
+     }
+}
+
+
+
+ }
+
+   
+        
+   footer{
+      position: absolute;
+            top: 805.5rem;
+            background-color: rgba(0, 0, 0, 0.705);
+            width :100%;
+            height: 35.9rem;
+            padding-bottom: -24rem;
+          }
+     
+     
+     
+          .footer_contact h1{
+            position: absolute;
+            left: -9rem;
+          }
+        
+          .footer_contact{
+            width: 45%;
+            position: absolute;
+            top: 5rem;
+            left: 45%;
+         }
+         
+         .mail{
+           font-size: 20px;
+           position: absolute;
+           top: 7rem;
+           left :-13.5rem;
+           color: #ffffff;
+         }
+         
+         .phone{
+           font-size: 19px;
+           position: absolute;
+           top: 10rem;
+           left :-13.5rem;
+           color: #ffffff;
+         }
+         
+         .footer_contact p:nth-last-child(3){
+           font-size: 18px;
+           position: absolute;
+           top: 13.1rem;
+           left :-13.0rem;
+           color: #ffffff;
+         }
+          
+         .icones{
+            position: relative;
+            top: 21rem;
+            left: -8rem;
+           }
+          
+           .border_{
+            position: absolute;
+            top: 19rem;
+            left: -4.8rem;
+            width: 2.6cm;
+            height: 4px;
+            background-color: #ffffff;
+           }
+          
+         
+          .footCopright{
+           position: absolute;
+           top: 35.8rem;
+           width: 100%;
+           height: 3.6cm;
+           background-color: rgba(40, 37, 37, 0.921);
+           font-size: 18px;
+           padding-top: 0rem;
+           color: rgb(212, 205, 205);
+          }
+   
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

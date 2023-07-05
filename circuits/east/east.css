@@ -1,0 +1,2561 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+  background-color: white;
+  width: 10px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "unnabold";
+  src: url("fonts/unna-bold-webfont.woff2") format("woff2"), url("fonts/unna-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("fonts/battora-webfont.woff2") format("woff2"), url("./fonts/battora-webfont .woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("./fonts/alfaslabone-regular-webfont.woff2") format("woff2"), url("fonts/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "paytone_oneregular";
+  src: url("fonts/paytoneone-regular-webfont.woff2") format("woff2"), url("fonts/paytoneone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 1cm;
+  width: 10%;
+  position: fixed;
+  z-index: 4;
+}
+
+.header {
+  background-color: white;
+  height: 2.1cm;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+}
+
+.logo {
+  width: 169px;
+  height: 65px;
+  left: 2rem;
+  position: fixed;
+  z-index: 4;
+  top: 1rem;
+}
+
+.logoBurger {
+  position: absolute;
+  left: -8rem;
+}
+
+header ul {
+  position: relative;
+  top: -2.5rem;
+  right: 4rem;
+  display: flex;
+  list-style-type: none;
+  height: 1cm;
+  padding-top: 5rem;
+  padding-bottom: 14rem;
+  overflow: hidden;
+  float: right;
+}
+
+li a {
+  margin: 6px;
+  font-size: 19px;
+  padding: 17px;
+  color: rgb(64, 56, 56);
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+  border: opx solid;
+  border-width: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #d6d61e;
+  border-radius: 8px;
+  text-decoration: none;
+  color: rgb(64, 56, 56);
+}
+
+.versionAng {
+  margin-left: 11rem;
+  font-size: 19px;
+  color: rgb(64, 56, 56);
+}
+
+.imgAng {
+  position: relative;
+  left: 0rem;
+  top: 0rem;
+  width: 30px;
+  border-radius: 40%;
+  height: 30px;
+}
+
+.fenetreFrancais {
+  position: relative;
+  display: none;
+  float: right;
+  left: 94rem;
+  top: 8.3rem;
+  width: 5cm;
+  height: 2cm;
+  background-color: #04AA6D;
+  z-index: 4;
+  transform: translateY(-4.5cm);
+  transition: 0;
+}
+
+.imgAng1 {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 1rem;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.fenetreFrancais p {
+  position: absolute;
+  left: 7rem;
+  top: 2rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.couvertureEst img {
+  position: absolute;
+  top: 19rem;
+  left: 2vw;
+  width: 60vw;
+  height: 52rem;
+  border-radius: 6px;
+}
+
+.couvertureEst_responsive img {
+  display: none;
+  position: absolute;
+  top: 0rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.up {
+  display: none;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+  background-color: white;
+  width: 10px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "unnabold";
+  src: url("fonts/unna-bold-webfont.woff2") format("woff2"), url("fonts/unna-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("fonts/battora-webfont.woff2") format("woff2"), url("./fonts/battora-webfont .woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("./fonts/alfaslabone-regular-webfont.woff2") format("woff2"), url("fonts/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "paytone_oneregular";
+  src: url("fonts/paytoneone-regular-webfont.woff2") format("woff2"), url("fonts/paytoneone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  @font-face {
+    font-family: "coneria_script_demoregular";
+    src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "yeseva_oneregular";
+    src: url("../../../fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("../../../fonts/yesevaone-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  b {
+    color: rgb(62, 56, 56);
+  }
+  .title_east {
+    color: rgb(0, 34, 96);
+    font-size: 45px;
+    position: absolute;
+    top: 9.5rem;
+    left: 8rem;
+    font-weight: 800;
+    width: 60vw;
+    font-family: "yeseva_oneregular";
+  }
+  .east .desc {
+    position: absolute;
+    width: 55vw;
+    top: 75rem;
+    left: 8rem;
+    font-size: 20px;
+    color: rgb(93, 93, 97);
+  }
+  .detailTour h1 {
+    color: rgb(212, 139, 3);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 38px;
+    position: absolute;
+    top: 21rem;
+    left: 73vw;
+    font-weight: bold;
+    width: 20vw;
+  }
+  .detailTour .details {
+    border-radius: 6px;
+    box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
+    background-color: rgb(223, 220, 215);
+    border: 1.5px solid rgb(212, 139, 3);
+    width: 32vw;
+    height: 20rem;
+    position: absolute;
+    right: 2vw;
+    top: 33rem;
+  }
+  .detailTour .details .days {
+    position: absolute;
+    top: -18rem;
+    left: -65vw;
+  }
+  .detailTour .details .days img {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 67vw;
+    top: 22rem;
+  }
+  .detailTour .details .days h1 {
+    font-size: 24px;
+    color: rgb(67, 66, 66);
+    position: absolute;
+    left: 71vw;
+  }
+  .detailTour .details .localisation {
+    position: absolute;
+    top: 7rem;
+    left: 0vw;
+  }
+  .detailTour .details .localisation img {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 67vw;
+    top: 22rem;
+  }
+  .detailTour .details .localisation h1 {
+    font-size: 22px;
+    position: absolute;
+    left: 71vw;
+    width: 27vw;
+    color: rgb(67, 66, 66);
+  }
+}
+.h {
+  display: none;
+}
+
+.texte {
+  font-size: 55px;
+  position: absolute;
+  top: 50rem;
+  font-weight: 1600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  left: 15vw;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) {
+  @font-face {
+    font-family: "battoraregular";
+    src: url("../../../fonts/battora-webfont.woff2") format("woff2"), url("../../../fonts/battora-webfont .woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "unnabold";
+    src: url("../../../fonts/unna-bold-webfont.woff2") format("woff2"), url("../../../fonts/unna-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  .east_day {
+    position: absolute;
+    top: 130rem;
+    left: 0rem;
+  }
+  .east_day .titre_east {
+    font-size: 36px;
+    position: absolute;
+    left: 10vw;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    top: -14.5rem;
+    width: 60vw;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .east_day .anim_1 {
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: -12.5rem;
+    left: 5vw;
+    border-radius: 4px;
+    background-color: rgb(222, 167, 1);
+    border-radius: 0;
+    animation: rotate 5s linear infinite;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(155deg);
+    }
+    20% {
+      transform: rotate(205deg);
+    }
+    40% {
+      transform: rotate(255deg);
+    }
+    60% {
+      transform: rotate(305deg);
+    }
+    80% {
+      transform: rotate(355deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+  .east_day .day1 {
+    width: 60vw;
+    height: 17rem;
+    position: absolute;
+    top: 0rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day1 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day1 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day .day2 {
+    width: 60vw;
+    height: 22rem;
+    position: absolute;
+    top: 26rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day2 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day2 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day .day3 {
+    width: 60vw;
+    height: 20rem;
+    position: absolute;
+    top: 58rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day3 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day3 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day .day4 {
+    width: 60vw;
+    height: 22.6rem;
+    position: absolute;
+    top: 87.6rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day4 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day4 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day .day5 {
+    width: 60vw;
+    height: 13.6rem;
+    position: absolute;
+    top: 120.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day5 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day5 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day .day6-7-8 {
+    width: 60vw;
+    height: 13.6rem;
+    position: absolute;
+    top: 144.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day6-7-8 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day6-7-8 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day6-7-8 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day .day9 {
+    width: 60vw;
+    height: 13.6rem;
+    position: absolute;
+    top: 167.6rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day9 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day9 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day .day10 {
+    width: 60vw;
+    height: 13.6rem;
+    position: absolute;
+    top: 192rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day10 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day10 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day10 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day .border_vertical1 {
+    width: 5.4px;
+    height: 200rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 125rem;
+    left: 65rem;
+  }
+}
+.galerieEst {
+  position: absolute;
+  right: 1rem;
+  top: 125rem;
+  width: 32vw;
+  height: 60rem;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.galerieEst .lig1 {
+  display: flex;
+}
+.galerieEst .lig1 img {
+  width: 17vw;
+  height: 105px;
+}
+.galerieEst .lig2 {
+  display: flex;
+}
+.galerieEst .lig2 img {
+  width: 10.65vw;
+  height: 105px;
+}
+
+@media screen and (min-width: 1024px) {
+  @font-face {
+    font-family: "battoraregular";
+    src: url("../../../fonts/battora-webfont.woff2") format("woff2"), url("../../../fonts/battora-webfont .woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "unnabold";
+    src: url("../../../fonts/unna-bold-webfont.woff2") format("woff2"), url("../../../fonts/unna-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  .east_day_pangalane {
+    position: absolute;
+    top: 366.4rem;
+    left: 0rem;
+  }
+  .east_day_pangalane .titre_east {
+    font-size: 30px;
+    position: absolute;
+    left: 10vw;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    top: -14.5rem;
+    width: 60vw;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .east_day_pangalane .anim_2 {
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: -12.5rem;
+    left: 5vw;
+    border-radius: 4px;
+    background-color: rgb(222, 167, 1);
+    border-radius: 0;
+    animation: rotate 5s linear infinite;
+  }
+  @keyframes rotate2 {
+    0% {
+      transform: rotate(155deg);
+    }
+    20% {
+      transform: rotate(205deg);
+    }
+    40% {
+      transform: rotate(255deg);
+    }
+    60% {
+      transform: rotate(305deg);
+    }
+    80% {
+      transform: rotate(355deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+  .east_day_pangalane .anim_1 {
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: -12.5rem;
+    left: 5vw;
+    border-radius: 4px;
+    background-color: rgb(222, 167, 1);
+    border-radius: 0;
+    animation: rotate2 5s linear infinite;
+  }
+  .east_day_pangalane .day1 {
+    width: 60vw;
+    height: 17rem;
+    position: absolute;
+    top: 0rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day1 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day1 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day_pangalane .day2 {
+    width: 60vw;
+    height: 22rem;
+    position: absolute;
+    top: 26rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day2 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day2 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day_pangalane .day3 {
+    width: 60vw;
+    height: 20rem;
+    position: absolute;
+    top: 58rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day3 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day3 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day_pangalane .day4 {
+    width: 60vw;
+    height: 23.3rem;
+    position: absolute;
+    top: 87.6rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day4 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 8.4rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day4 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day_pangalane .day5 {
+    width: 60vw;
+    height: 24.9rem;
+    position: absolute;
+    top: 120.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day5 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day5 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day_pangalane .day6 {
+    width: 60vw;
+    height: 19.1rem;
+    position: absolute;
+    top: 155.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day6 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 9rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day6 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .east_day_pangalane .day7 {
+    width: 60vw;
+    height: 17.1rem;
+    position: absolute;
+    top: 185.7rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day7 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day7 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    position: relative;
+    top: 591rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 34.4rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: relative;
+    top: 5rem;
+    left: 40%;
+  }
+  .footer_contact h1 {
+    font-size: 36px;
+    color: #ffffff;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 5rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 20px;
+    position: absolute;
+    top: 8rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 22px;
+    position: absolute;
+    top: 11.1rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  div.icones img:nth-last-child(1) {
+    position: absolute;
+    top: 20rem;
+    left: 0rem;
+  }
+  .img_fb {
+    position: absolute;
+    top: 0rem;
+    left: 7rem;
+  }
+  div.icones img:nth-last-child(3) {
+    position: absolute;
+    top: 20rem;
+    left: 14rem;
+  }
+  .icones {
+    position: relative;
+    top: -6rem;
+    left: 3rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 17rem;
+    left: 7.2rem;
+    width: 2.6cm;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .footCopright {
+    position: absolute;
+    top: 34.4rem;
+    width: 100%;
+    height: 1.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 20px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 765px) {
+  .up img {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 56.4rem;
+    right: 2rem;
+    z-index: 8;
+  }
+  .texte {
+    font-size: 32px;
+    position: absolute;
+    left: 4rem;
+    top: 36rem;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 35vw;
+    align-items: center;
+    justify-content: center;
+    top: -2.5rem;
+    padding-bottom: 12.5cm;
+  }
+  header ul li {
+    margin: 23px;
+  }
+  header ul li a {
+    font-size: 23px;
+    padding: 6px;
+  }
+  .logo {
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 3cm;
+    height: 1.5cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-150rem);
+    width: 100%;
+    height: 43rem;
+    background-color: #1ed661;
+    z-index: 4;
+    transition: 0.6s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: 1.5rem;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 30px;
+    position: relative;
+    float: right;
+    right: -100vw;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .couvertureEst img {
+    width: 100%;
+    left: 0;
+    display: none;
+  }
+  .couvertureEst_responsive img {
+    width: 100%;
+    left: 0;
+    height: 55rem;
+    display: inline-block;
+  }
+  .title_east {
+    font-size: 45px;
+    left: 4rem;
+    top: 60rem;
+    text-align: center;
+  }
+  .east .desc {
+    font-size: 20px;
+    left: 4.2rem;
+    top: 72rem;
+    width: 82vw;
+  }
+  .east_day {
+    position: absolute;
+    top: 92rem;
+    left: -30rem;
+  }
+  .east_day .titre_east {
+    font-size: 38px;
+    position: absolute;
+    left: 71vw;
+    font-weight: 600;
+    color: rgb(8, 158, 63);
+    top: 19.5rem;
+    width: 55vw;
+    position: absolute;
+  }
+  .east_day .day1 {
+    width: 91vw;
+    height: 20rem;
+    position: absolute;
+    top: 32rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .east_day .day1 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day2 {
+    width: 91vw;
+    height: 24rem;
+    position: absolute;
+    top: 67rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .east_day .day2 p {
+    font-size: 19.8px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day3 {
+    width: 91vw;
+    height: 22rem;
+    position: absolute;
+    top: 106rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day3 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .east_day .day3 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day4 {
+    width: 91vw;
+    height: 27rem;
+    position: absolute;
+    top: 143rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day4 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .east_day .day4 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day5 {
+    width: 91vw;
+    height: 17rem;
+    position: absolute;
+    top: 185rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day5 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .east_day .day5 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day6-7-8 {
+    width: 85vw;
+    height: 14rem;
+    position: absolute;
+    top: 185rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day6-7-8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 5.4rem;
+    font-weight: 550;
+  }
+  .east_day .day9 {
+    width: 91vw;
+    height: 16rem;
+    position: absolute;
+    top: 245rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day9 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .east_day .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day10 {
+    width: 91vw;
+    height: 16rem;
+    position: absolute;
+    top: 242rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day10 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .east_day .day10 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day6-7-8 {
+    width: 91vw;
+    height: 14rem;
+    position: absolute;
+    top: 216rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day6-7-8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 5.4rem;
+    font-weight: 550;
+  }
+  .east_day_pangalane {
+    position: absolute;
+    top: 380rem;
+    left: 0rem;
+  }
+  .east_day_pangalane .titre_east {
+    font-size: 27px;
+    position: absolute;
+    left: 27vw;
+    font-weight: 600;
+    font-weight: 700;
+    color: rgb(8, 158, 63);
+    top: -18rem;
+    width: 70vw;
+    position: absolute;
+  }
+  .east_day_pangalane .titre_east span {
+    color: rgb(8, 158, 63);
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
+  }
+  .east_day_pangalane .day1 {
+    width: 91vw;
+    height: 20rem;
+    position: absolute;
+    top: -2rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day_pangalane .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .east_day_pangalane .day1 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day2 {
+    width: 91vw;
+    height: 24rem;
+    position: absolute;
+    top: 31rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day_pangalane .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .east_day_pangalane .day2 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day3 {
+    width: 91vw;
+    height: 21rem;
+    position: absolute;
+    top: 71rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day3 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .east_day_pangalane .day3 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day4 {
+    width: 91vw;
+    height: 24rem;
+    position: absolute;
+    top: 108rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day4 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .east_day_pangalane .day4 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day5 {
+    width: 91vw;
+    height: 30rem;
+    position: absolute;
+    top: 145rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day5 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .east_day_pangalane .day5 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day6 {
+    width: 91vw;
+    height: 15rem;
+    position: absolute;
+    top: 189rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day6 h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .east_day_pangalane .day6 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day7 {
+    width: 91vw;
+    height: 18rem;
+    position: absolute;
+    top: 217rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day7 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .east_day_pangalane .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .border_vertical4 {
+    width: 5.4px;
+    height: 205rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 144rem;
+    left: 50vw;
+  }
+  .border_vertical5 {
+    width: 5.4px;
+    height: 220rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 394rem;
+    left: 50vw;
+  }
+  footer {
+    position: absolute;
+    top: 625.5rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 35.9rem;
+    padding-bottom: -24rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 45%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 21rem;
+    left: -8rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -4.8rem;
+    width: 2.6cm;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .footCopright {
+    position: absolute;
+    top: 35.8rem;
+    width: 100%;
+    height: 2.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 0rem;
+    color: rgb(212, 205, 205);
+  }
+}
+@media screen and (max-width: 764px) and (min-width: 280px) {
+  * {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(227, 216, 201);
+  }
+  html::-webkit-scrollbar {
+    background-color: white;
+    width: 10px;
+    scrollbar-width: thin;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(53, 44, 44, 0.555);
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+  }
+  @font-face {
+    font-family: "coneria_script_demoregular";
+    src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "abril_fatfaceregular";
+    src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "unnabold";
+    src: url("fonts/unna-bold-webfont.woff2") format("woff2"), url("fonts/unna-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "yeseva_oneregular";
+    src: url("fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("fonts/yesevaone-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "battoraregular";
+    src: url("fonts/battora-webfont.woff2") format("woff2"), url("./fonts/battora-webfont .woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "alfa_slab_oneregular";
+    src: url("./fonts/alfaslabone-regular-webfont.woff2") format("woff2"), url("fonts/alfaslabone-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "paytone_oneregular";
+    src: url("fonts/paytoneone-regular-webfont.woff2") format("woff2"), url("fonts/paytoneone-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  @import url("_include-media.scss");
+  * {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .up img {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 55rem;
+    right: 2rem;
+    z-index: 8;
+  }
+  .texte {
+    font-size: 26px;
+    position: absolute;
+    left: 1rem;
+    top: 37rem;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2.2cm;
+    z-index: 20;
+    background-color: #ffffff;
+  }
+  header ul {
+    display: none;
+    z-index: 4;
+    position: absolute;
+    left: 16vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: -15rem;
+    padding-bottom: 14.5cm;
+  }
+  header ul li {
+    margin: 17px;
+  }
+  header ul li a {
+    font-size: 19px;
+    padding: 6px;
+    color: #1d1a1a;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  header ul li .active {
+    color: white;
+    background-color: #04AA6D;
+    border: opx solid;
+    border-width: 20px;
+    padding-right: 25px;
+    border-radius: 5px;
+    padding-left: 25px;
+    text-decoration: none;
+  }
+  .logo {
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 3.2cm;
+    height: 1.5cm;
+    z-index: 30;
+  }
+  .header {
+    position: absolute;
+    top: 8.2rem;
+    width: 100%;
+    height: 0rem;
+    background-color: #1ed661;
+    z-index: 4;
+    transition: 0.6s;
+  }
+  .versionAng {
+    margin-left: 3rem;
+    font-size: 19px;
+    color: rgb(64, 56, 56);
+  }
+  .imgAng {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    width: 30px;
+    border-radius: 40%;
+    height: 30px;
+  }
+  .imgAng .fenetreFrancais {
+    position: relative;
+    float: right;
+    z-index: 4;
+    display: none;
+    transform: translateY(-4.5cm);
+  }
+  .imgAng p {
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+    color: rgb(45, 45, 45);
+  }
+  .show {
+    transform: translateY(0);
+    transition: 0.14s;
+  }
+  #ang {
+    cursor: pointer;
+  }
+  .logoBurger i {
+    font-size: 26px;
+    position: relative;
+    float: right;
+    justify-content: space-between;
+    top: 2.2rem;
+    border-radius: 20%;
+    padding: 6px;
+    margin-right: -111.5vw;
+    border: 1.5px solid black;
+    z-index: 20;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow_east {
+    transition: 0.4s;
+    height: 35rem;
+  }
+  .hideshow2 {
+    display: block;
+    position: absolute;
+    top: -5rem;
+    left: 0vw;
+  }
+  .couvertureEst img {
+    width: 100%;
+    left: 0;
+    display: none;
+  }
+  .couvertureEst_responsive img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 48rem;
+    height: 40rem;
+    display: inline-block;
+  }
+  .detailTour h1 {
+    color: rgb(212, 139, 3);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    position: absolute;
+    top: 17rem;
+    left: 19vw;
+    font-weight: bold;
+    width: 60vw;
+  }
+  .detailTour .details {
+    border-radius: 6px;
+    box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
+    background-color: rgb(223, 220, 215);
+    border: 1.5px solid rgb(212, 139, 3);
+    width: 90vw;
+    height: 20rem;
+    position: absolute;
+    right: 5vw;
+    top: 25rem;
+  }
+  .detailTour .details .days {
+    position: absolute;
+    top: -15rem;
+    left: -65vw;
+  }
+  .detailTour .details .days img {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 69vw;
+    top: 17.6rem;
+  }
+  .detailTour .details .days h1 {
+    font-size: 23px;
+    color: rgb(67, 66, 66);
+    position: absolute;
+    left: 76vw;
+  }
+  .detailTour .details .localisation {
+    position: absolute;
+    top: 7rem;
+    left: 0vw;
+  }
+  .detailTour .details .localisation img {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 67vw;
+    top: 18rem;
+  }
+  .detailTour .details .localisation h1 {
+    font-size: 22px;
+    position: absolute;
+    left: 77vw;
+    width: 77vw;
+    color: rgb(67, 66, 66);
+  }
+  .title_east {
+    color: #002260;
+    font-size: 36px;
+    position: absolute;
+    top: 10.5rem;
+    left: 19vw;
+    font-weight: 800;
+    width: 60vw;
+    font-family: "yeseva_oneregular";
+    text-align: center;
+  }
+  .east .desc {
+    font-size: 18px;
+    position: absolute;
+    left: 4.2rem;
+    top: 92.5rem;
+    width: 82vw;
+    color: #201f1f;
+  }
+  .east .desc b {
+    color: #0b077e;
+  }
+  .galerieEst {
+    display: none;
+  }
+  .east_day {
+    position: absolute;
+    top: 175rem;
+    left: 0rem;
+  }
+  .east_day .titre_east {
+    font-size: 26.6px;
+    position: absolute;
+    left: 14vw;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    top: -14.5rem;
+    width: 80vw;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .east_day .anim_1 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -12.5rem;
+    left: 5vw;
+    border-radius: 4px;
+    background-color: rgb(222, 167, 1);
+    border-radius: 0;
+    animation: rotate 5s linear infinite;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(155deg);
+    }
+    20% {
+      transform: rotate(205deg);
+    }
+    40% {
+      transform: rotate(255deg);
+    }
+    60% {
+      transform: rotate(305deg);
+    }
+    80% {
+      transform: rotate(355deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+  .east_day .day1 {
+    width: 87vw;
+    height: 26rem;
+    position: absolute;
+    top: 0rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day1 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 17vw;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 2vw;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day1 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day .day2 {
+    width: 87vw;
+    height: 39rem;
+    position: absolute;
+    top: 37rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day2 h1 {
+    font-size: 22px;
+    position: absolute;
+    left: 12vw;
+    font-weight: 550;
+    left: 10.5vw;
+    color: rgb(35, 34, 34);
+    width: 60vw;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 8.6rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day2 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day .day3 {
+    width: 87vw;
+    height: 35rem;
+    position: absolute;
+    top: 89rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day3 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 9vw;
+    font-weight: 550;
+    width: 80vw;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 2vw;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day3 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day .day4 {
+    width: 87vw;
+    height: 39.1rem;
+    position: absolute;
+    top: 135.6rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day4 h1 {
+    font-size: 19px;
+    position: absolute;
+    left: 10vw;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    top: 1rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 9.7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day4 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 2.6rem;
+    left: 0.4rem;
+  }
+  .east_day .day5 {
+    width: 87vw;
+    height: 17rem;
+    position: absolute;
+    top: 185.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day5 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 17vw;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    width: 60vw;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day5 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day .day6-7-8 {
+    width: 87vw;
+    height: 13.6rem;
+    position: absolute;
+    top: 214rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day6-7-8 h1 {
+    font-size: 19.6px;
+    position: absolute;
+    left: 13vw;
+    font-weight: 550;
+    width: 50vw;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day6-7-8 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 22vw;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day6-7-8 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day .day9 {
+    width: 87vw;
+    height: 20.6rem;
+    position: absolute;
+    top: 238.2rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day9 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day9 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day .day10 {
+    width: 87vw;
+    height: 16.6rem;
+    position: absolute;
+    top: 269.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day .day10 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 17vw;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day .day10 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day10 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day_pangalane {
+    position: absolute;
+    top: 490rem;
+    left: 0rem;
+  }
+  .east_day_pangalane .titre_east {
+    font-size: 17px;
+    position: absolute;
+    left: 16vw;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    top: -14.5rem;
+    width: 80vw;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .east_day_pangalane .anim_2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -12.5rem;
+    left: 5vw;
+    border-radius: 4px;
+    background-color: rgb(222, 167, 1);
+    border-radius: 0;
+    animation: rotate 5s linear infinite;
+  }
+  @keyframes rotate2 {
+    0% {
+      transform: rotate(155deg);
+    }
+    20% {
+      transform: rotate(205deg);
+    }
+    40% {
+      transform: rotate(255deg);
+    }
+    60% {
+      transform: rotate(305deg);
+    }
+    80% {
+      transform: rotate(355deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+  .east_day_pangalane .day1 {
+    width: 87vw;
+    height: 26rem;
+    position: absolute;
+    top: 0rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day1 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 17vw;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 2vw;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day1 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day_pangalane .day2 {
+    width: 87vw;
+    height: 39rem;
+    position: absolute;
+    top: 37rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day2 h1 {
+    font-size: 22px;
+    position: absolute;
+    left: 12vw;
+    font-weight: 550;
+    left: 11vw;
+    color: rgb(35, 34, 34);
+    width: 60vw;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 8.6rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day2 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day_pangalane .day3 {
+    width: 87vw;
+    height: 35rem;
+    position: absolute;
+    top: 87rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day3 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 8vw;
+    font-weight: 550;
+    width: 80vw;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 2vw;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day3 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day_pangalane .day4 {
+    width: 87vw;
+    height: 39.1rem;
+    position: absolute;
+    top: 133rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day4 h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 15.6vw;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    width: 60vw;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 10.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day4 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day_pangalane .day5 {
+    width: 87vw;
+    height: 44.5rem;
+    position: absolute;
+    top: 184.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day5 h1 {
+    font-size: 19px;
+    position: absolute;
+    left: 13vw;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    width: 60vw;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 7.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day5 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day_pangalane .day6 {
+    width: 87vw;
+    height: 24.9rem;
+    position: absolute;
+    top: 242rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day6 h1 {
+    font-size: 16px;
+    position: absolute;
+    left: 10vw;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 10.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day6 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+  }
+  .east_day_pangalane .day7 {
+    width: 87vw;
+    height: 20rem;
+    position: absolute;
+    top: 279rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .east_day_pangalane .day7 h1 {
+    font-size: 19px;
+    position: absolute;
+    left: 16vw;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .east_day_pangalane .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1vw;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day7 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+  }
+  footer {
+    position: absolute;
+    top: 805.5rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 35.9rem;
+    padding-bottom: -24rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 45%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 21rem;
+    left: -8rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -4.8rem;
+    width: 2.6cm;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .footCopright {
+    position: absolute;
+    top: 35.8rem;
+    width: 100%;
+    height: 3.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 0rem;
+    color: rgb(212, 205, 205);
+  }
+}
+
+/*# sourceMappingURL=east.css.map */

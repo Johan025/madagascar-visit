@@ -1,0 +1,417 @@
+@media screen and (max-width: 1023px) and (min-width:765px) {
+    .up img{
+        width: 80px;
+        height: 80px;
+        position: fixed;
+        top: 56.4rem;
+        right: 2rem;
+        z-index: 8;
+    
+    }
+
+    .texte{
+        font-size: 32px;
+        position: absolute;
+        left: 4rem;
+        top: 36rem;
+    }
+    
+    header{
+        position: fixed;
+        width: 100%;
+        height: 2cm;
+        background-color: #ffffff;
+
+        ul{
+            display: block;
+            z-index: 4;
+            position: absolute;
+            left: 35vw;
+            align-items: center;
+            justify-content: center;
+            top: -2.5rem;
+            padding-bottom: 12.5cm;
+
+             li{
+                margin: 23px;
+                 
+                a{
+                  font-size: 23px;
+                  padding: 6px;
+                }
+                }
+            }
+        }
+        
+    .logo{
+        position: fixed;
+        top: 1.4rem;
+        left: 2.4rem;
+        width: 3cm;
+        height: 1.5cm;
+        z-index: 6;
+    }
+        
+         
+    .header{
+        position :absolute;
+        top: 7.78rem;
+        transform: translateY(-150rem);
+        width: 100%;
+        height: 43rem;
+        background-color: #1ed661;
+        z-index: 4;
+        transition : 0.6s;
+        }
+          
+    .versionAng{
+        margin: 7rem;
+        position: absolute;
+        top: 34rem;
+        left: 1.5rem;
+    }
+        
+        #ang{
+        cursor: pointer;
+        position: absolute;
+        top:0;
+    }
+          
+    .logoBurger i{
+        font-size: 30px;
+        position: relative;
+        float: right; 
+     right: -100vw;
+        top: 1.5rem;
+        border-radius: 50%;
+        padding: 7px;
+        border: 1.5px solid black;
+        z-index: -4;
+        color:black;
+
+          &:hover{
+            border: 0px solid #1ed661;
+            background-color: #1ed640;
+          }
+          
+    }
+        
+         
+    .hideshow{
+        transform: translateY(-0.2rem);
+        transition: 0.5s;
+    }
+
+    .couvertureEst img{
+        width: 100%;
+        left:0;
+        display: none;
+    }
+
+    .couvertureEst_responsive img{
+        width: 100%;
+        left:0;
+        height: 55rem;
+        display: inline-block;
+    }
+
+    .title_east{
+        font-size: 45px;
+        left: 4rem;
+        top: 60rem;
+        text-align: center;
+    }
+
+    .east .desc{
+        font-size: 20px;
+        left: 4.2rem;
+        top: 72rem;
+        width: 82vw;
+    }
+
+    .east_day{
+        position: absolute;
+        top: 92rem;
+        left: -30rem;
+
+        .titre_east{
+            @include h1(38px, 600, 71vw);
+            color: $color_1;
+            top: 19.5rem;
+            width: 55vw;
+            position: absolute;
+          }
+      
+      
+      .day1{
+          @include div(91vw, 20rem, 33rem, 32rem, $color_3);
+           text-align: center;
+          h1{
+              @include h1(25px, 550, 4rem);
+          }
+           p{
+              @include p( 19.5px, 1rem ,  7rem);
+           }
+      }
+
+      .day2{
+        @include div(91vw, 24rem, 33rem, 67rem, $color_3);
+         text-align: center;
+        h1{
+            @include h1(23px, 550, 1rem);
+        }
+         p{
+            @include p( 19.8px, 1rem ,  6rem);
+         }
+    }
+
+    .day3{
+        @include div(91vw, 22rem, 33rem, 106rem, $color_3);
+        h1{
+            @include h1(25px, 550, 4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day4{
+        @include div(91vw, 27rem, 33rem, 143rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day5{
+        @include div(91vw, 17rem, 33rem, 185rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day6-7-8{
+        @include div(85vw, 14rem, 33rem, 185rem, $color_3);
+        h1{
+            @include h1(21px, 550, 5.4rem);
+        }
+
+    }
+
+    .day9{
+        @include div(91vw, 16rem, 33rem, 245rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  8rem);
+         }
+    }
+
+    .day10{
+        @include div(91vw, 16rem, 33rem, 242rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day6-7-8{
+        @include div(91vw, 14rem, 33rem, 216rem, $color_3);
+        h1{
+            @include h1(21px, 550, 5.4rem);
+        }
+
+    }
+
+
+    }      
+
+    .east_day_pangalane{
+        position: absolute;
+        top: 380rem;
+        left: 0rem;
+      
+        .titre_east{
+          @include h1(27px, 600, 27vw);
+          font-weight: 700;
+          color: $color_1;
+          top: -18rem;
+          width: 70vw;
+          position: absolute;
+
+          span{
+            color: $color_1;
+            position: absolute;
+            left: 2rem;
+            top: 4rem;
+           }
+        }
+             
+      .day1{
+        @include div(91vw, 20rem, 3rem, -2rem, $color_3);
+         text-align: center;
+        h1{
+            @include h1(25px, 550, 4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day2{
+      @include div(91vw, 24rem, 3rem, 31rem, $color_3);
+       text-align: center;
+      h1{
+          @include h1(23px, 550, 1rem);
+      }
+       p{
+          @include p( 19.5px, 1rem ,  6rem);
+       }
+  }
+
+  .day3{
+      @include div(91vw, 21rem, 3rem, 71rem, $color_3);
+      h1{
+          @include h1(25px, 550, 4rem);
+      }
+       p{
+          @include p( 19.5px, 1rem ,  7rem);
+       }
+  }
+
+  .day4{
+      @include div(91vw, 24rem, 3rem, 108rem, $color_3);
+      h1{
+          @include h1(20px, 550, 1.4rem);
+      }
+       p{
+          @include p( 19.5px, 1rem ,  7rem);
+       }
+  }
+
+  .day5{
+    @include div(91vw, 30rem, 3rem, 145rem, $color_3);
+    h1{
+        @include h1(20px, 550, 1.4rem);
+    }
+     p{
+        @include p( 19.5px, 1rem ,  7rem);
+     }
+}
+
+.day6{
+    @include div(91vw, 15rem, 3rem, 189rem, $color_3);
+    h1{
+        @include h1(18px, 550, 1rem);
+    }
+     p{
+        @include p( 19.5px, 1rem ,  7rem);
+     }
+}
+
+.day7{
+    @include div(91vw, 18rem, 3rem, 217rem, $color_3);
+    h1{
+        @include h1(20px, 550, 1rem);
+    }
+     p{
+        @include p( 18.5px, 1rem ,  7rem);
+     }
+}
+
+
+
+ }
+
+    .border_vertical4{
+            @include border(205rem, 5.4px,rgb(215, 141, 3), 50vw, 144rem);
+        }
+        
+    .border_vertical5{
+            @include border(220rem, 5.4px, rgb(215, 141, 3), 50vw, 394rem);
+        }
+        
+        footer{
+            position: absolute;
+            top: 625.5rem;
+            background-color: rgba(0, 0, 0, 0.705);
+            width :100%;
+            height: 35.9rem;
+            padding-bottom: -24rem;
+          }
+     
+     
+     
+          .footer_contact h1{
+            position: absolute;
+            left: -9rem;
+          }
+        
+          .footer_contact{
+            width: 45%;
+            position: absolute;
+            top: 5rem;
+            left: 45%;
+         }
+         
+         .mail{
+           font-size: 20px;
+           position: absolute;
+           top: 7rem;
+           left :-13.5rem;
+           color: #ffffff;
+         }
+         
+         .phone{
+           font-size: 19px;
+           position: absolute;
+           top: 10rem;
+           left :-13.5rem;
+           color: #ffffff;
+         }
+         
+         .footer_contact p:nth-last-child(3){
+           font-size: 18px;
+           position: absolute;
+           top: 13.1rem;
+           left :-13.0rem;
+           color: #ffffff;
+         }
+          
+         .icones{
+            position: relative;
+            top: 21rem;
+            left: -8rem;
+           }
+          
+           .border_{
+            position: absolute;
+            top: 19rem;
+            left: -4.8rem;
+            width: 2.6cm;
+            height: 4px;
+            background-color: #ffffff;
+           }
+          
+         
+          .footCopright{
+           position: absolute;
+           top: 35.8rem;
+           width: 100%;
+           height: 2.6cm;
+           background-color: rgba(40, 37, 37, 0.921);
+           font-size: 18px;
+           padding-top: 0rem;
+           color: rgb(212, 205, 205);
+          }
+   
+
+}

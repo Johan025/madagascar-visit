@@ -1,0 +1,115 @@
+header{
+    background-color:white;
+    height:1cm;
+    width:10%;
+    position: fixed;
+    z-index: 4;
+   }
+
+.header{
+    background-color:white;
+    height:2.1cm;
+    width:100%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+   }
+
+    .logo{
+    width: 169px;
+    height: 65px;
+    left: 2rem;
+    position: fixed;
+    z-index: 4;
+    top: 1rem;
+    }
+
+  .logoBurger{
+    position: absolute;
+    left: -8rem;
+
+} 
+
+  header ul {
+  position: relative;
+  top: -2.5rem;
+  right: 4rem;
+  display: flex;
+  list-style-type: none;
+  height:1cm;
+  padding-top:5rem;
+  padding-bottom: 14rem;
+  overflow: hidden;
+      float: right;
+    }
+    
+    li a{
+     margin : 6px;
+     font-size: 19px;
+     padding:17px;
+     color:rgb(64, 56, 56);
+    }
+
+     
+    li a.active {
+    color: white;
+    background-color: #04AA6D;
+    border: opx solid;
+    border-width: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    
+    } 
+
+    li a:hover:not(.active) {
+    background-color: #d6d61e;
+    border-radius: 8px;
+    text-decoration: none;
+    color:rgb(64, 56, 56);
+    }
+
+    .versionAng{
+    margin-left: 11rem;
+    font-size: 19px;
+    color: rgb(64, 56, 56);
+    }
+
+  .imgAng{
+  position: relative;
+  left :0rem;
+  top:0rem;
+  width:30px;
+  border-radius: 40%;
+  height: 30px;
+    }
+
+    .fenetreFrancais{
+  position: relative;
+  display: none;
+  float: right;
+  left: 94rem;
+  top:8.3rem;
+  width:5cm;
+  height:2cm;
+  background-color: #04AA6D;
+  z-index: 4;
+  transform: translateY(-4.5cm);
+  transition: 0;
+  }
+
+    .imgAng1{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 1rem;
+    border-radius: 40%;
+    cursor: pointer;
+    }
+ 
+    .fenetreFrancais p{
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+    font-size: 20px;
+    cursor: pointer;
+    }

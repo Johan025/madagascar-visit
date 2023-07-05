@@ -1,0 +1,27 @@
+.galerieEst{
+        position: absolute;
+        right: 1rem;
+        top: 125rem;
+        width: 32vw;
+       height: 60rem;
+       border: 1px solid black; 
+       border-radius: 6px;
+
+           .lig1{
+              display: flex;
+
+                 img{
+                      width: 17vw;
+                      height: 105px;
+                 }
+           }
+
+           .lig2{
+            display: flex;
+
+               img{
+                    width: 10.65vw;
+                    height: 105px;
+               }
+         }
+}
